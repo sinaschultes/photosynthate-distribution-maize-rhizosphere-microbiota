@@ -4,7 +4,7 @@ Custom scripts and data accompanying the following manuscript submitted to Natur
 **Photosynthate distribution determines spatial patterns in the rhizosphere microbiota of the maize root system**
 
 Sina R. Schultes <sup>(1)</sup>, Lioba Rüger <sup>(2)</sup>, Daniela Niedeggen <sup>(2)</sup>, Jule Freudenthal <sup>(2)</sup>, Katharina Frindte <sup>(1)</sup>, Maximilian F. Becker <sup>(1)</sup>, Ralf Metzner <sup>(3)</sup>, Daniel Pflugfelder <sup>(3)</sup>,
-Antonia Chlubek <sup>(3)</sup>, Carsten Hinz <sup>(3)</sup>, Dagmar van Dusschoten <sup>(3)</sup>, Sara Bauke <sup>(4)</sup>, Michael Bonkowski <sup>(2)</sup>, Michelle Watt <sup>(3,5)</sup>, Robert Koller <sup>(3)</sup>, Claudia Knief <sup>(1)</sup>
+Antonia Chlubek <sup>(3)</sup>, Carsten Hinz <sup>(3)</sup>, Dagmar van Dusschoten <sup>(3)</sup>, Sara L. Bauke <sup>(4)</sup>, Michael Bonkowski <sup>(2)</sup>, Michelle Watt <sup>(3,5)</sup>, Robert Koller <sup>(3)</sup>, Claudia Knief <sup>(1)</sup>
 
 _<sup>(1)</sup> Institute for Crop Science and Resource Conservation (INRES), Molecular Biology of the Rhizosphere, University of Bonn, Bonn, Germany_
 
