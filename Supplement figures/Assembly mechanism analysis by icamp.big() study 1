@@ -1,0 +1,140 @@
+rm(list = ls())
+
+######### specify wd
+wd=""
+wd
+
+########## load libraries
+library(writexl)
+library(readxl)
+library(dplyr)
+library(qiime2R)
+library(phyloseq)
+library(phyloseqCompanion)
+library(microbiome)
+library(plyr)
+library(foreach)
+library(doParallel)
+library(RColorBrewer)
+library(data.table)
+library(ggplot2)
+library(mirlyn)
+library(microViz)
+library(gridExtra)
+library(ggConvexHull)
+library(grid)
+library(tibble)
+library(phyloseqCompanion)
+library(ggpubr)
+library(iCAMP)
+library(ape)
+
+
+########## load data - run complete script once for each organism in a separate directory (16S, ITS).
+  ps <- readRDS("study1_ps_16S.RDS")
+  ps <- readRDS("study1_ps_ITS.RDS")
+  
+  ps <- subset_samples(ps, Root_section != "bulk")
+  
+  physeq_filtered <- prune_taxa(taxa_sums(ps) > 0, ps)#prune in case of subsetted data as OTUs with 0 count might cause mismatch errors
+
+########## format data  
+  comm <- otu.matrix(physeq_filtered, force.taxa.cols = TRUE) 
+  tree <- phy_tree(physeq_filtered)
+  
+  clas <- as.data.frame(tax_table(physeq_filtered))
+  clas$Species <- NULL #remove species column
+  
+  treat <- sample.data.frame(physeq_filtered)
+  treat <- subset(treat, select = c(Root_section))
+  treat$Root_section <- as.factor(treat$Root_section)
+  treat
+
+  #check dimensions
+  dim(comm)
+  dim(clas)
+  dim(treat)
+  
+  # check for identical otus between tree, taxonomy and otu table
+  t <- tree$tip.label
+  c <- colnames(comm)
+  tax <- rownames(clas)
+  
+  identical(c,tax)
+  identical(c,t)
+  identical(t,tax)
+  
+  # check for identical otus between tree, taxonomy and otu table
+  n <- rownames(treat)
+  m <- rownames(comm)
+  
+  identical(n,m)
+  
+  all(tree$tip.label %in% colnames(comm))
+  all(tree$tip.label %in% rownames(clas))
+
+########## set key parameters
+  # the folder to save the output
+  save.wd=""
+  if(!dir.exists(save.wd)){dir.create(save.wd)}
+
+  # key parameter setting
+  prefix="Test"  
+  rand.time=1000  
+  nworker=6 
+  memory.G=100 
+  setwd(wd)
+  
+  # match sample IDs in OTU table and treatment information table
+  sampid.check=match.name(rn.list=list(comm=comm,treat=treat)) 
+  
+  # match OTU IDs in OTU table and tree file
+  spid.check=match.name(cn.list=list(comm=comm),rn.list=list(clas=clas),tree.list=list(tree=tree))
+
+  
+########## calculate pairwise phylogenetic distance matrix.
+  setwd(save.wd)
+  if(!file.exists("pd.desc")) 
+  {
+    pd.big=iCAMP::pdist.big(tree = tree, wd=save.wd, nworker = nworker, memory.G = memory.G)
+  }else{
+    pd.big=list()
+    pd.big$tip.label=read.csv(paste0(save.wd,"/pd.taxon.name.csv"),row.names = 1,stringsAsFactors = FALSE)[,1]
+    pd.big$pd.wd=save.wd
+    pd.big$pd.file="pd.desc"
+    pd.big$pd.name.file="pd.taxon.name.csv"
+  }
+
+########## iCAMP analysis
+  bin.size.limit = 12 
+  sig.index="Confidence" 
+  
+  icres=iCAMP::icamp.big(comm=comm, pd.desc = pd.big$pd.file, pd.spname=pd.big$tip.label,
+                         pd.wd = pd.big$pd.wd, rand = rand.time, tree=tree,
+                         prefix = prefix, ds = 0.2, pd.cut = NA, sp.check = TRUE,
+                         phylo.rand.scale = "within.bin", taxa.rand.scale = "within.bin",
+                         phylo.metric = "bNTI", sig.index=sig.index, bin.size.limit = bin.size.limit, 
+                         nworker = nworker, memory.G = memory.G, rtree.save = FALSE, detail.save = TRUE, 
+                         qp.save = FALSE, detail.null = FALSE, ignore.zero = TRUE, output.wd = save.wd, 
+                         correct.special = TRUE, unit.sum = rowSums(comm), special.method = "depend",
+                         ses.cut = 1.96, rc.cut = 0.95, conf.cut=0.975, omit.option = "no",meta.ab = NULL)
+  
+  icres
+  saveRDS(icres, "icresstudyIconfbNTI.rds")
+  icresobject <- readRDS("icresstudyIconfbNTI.rds")
+
+
+########## bootstrapping test
+  # please specify column 1: Root_section in the treatment information table.
+  head(treat)
+  treat[1]
+  i=1
+  treat.use=treat[,i,drop=FALSE]
+  icamp.result=icres$detail$processes$CbMNTDiCBrayi 
+  icboot=iCAMP::icamp.boot(icamp.result = icamp.result,treat = treat.use,rand.time = rand.time,
+                           compare = TRUE,silent = FALSE,between.group = TRUE,ST.estimation = FALSE)
+  save(icboot,file=paste0(prefix,".iCAMP.Boot.",colnames(treat)[i],".rda"))
+  write.csv(icboot$summary,file = paste0(prefix,".iCAMP.BootSummary.",colnames(treat)[i],".csv"),row.names = FALSE)#output relative process importance
+  write.csv(icboot$compare,file = paste0(prefix,".iCAMP.Compare.",colnames(treat)[i],".csv"),row.names = FALSE)#output pairwise comparisons p
+
+
