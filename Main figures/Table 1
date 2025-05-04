@@ -1,0 +1,224 @@
+rm(list = ls())
+
+########## load libraries
+library(writexl)
+library(readxl)
+library(dplyr)
+library(vegan)
+library(phyloseq)
+library(phyloseqCompanion)
+library(microbiome)
+library(plyr)
+library(foreach)
+library(data.table)
+library(ggplot2)
+library(ggpubr)
+
+
+
+######################################## perform PERMANOVAS study 1
+
+  ########## load and prep data
+  ps_16S <- readRDS("study1_ps_16S.rds")
+  ps_16S <- subset_samples(ps_16S, Root_section != "bulk")
+  
+  ps_ITS <- readRDS("study1_ps_ITS.rds")
+  ps_ITS <- subset_samples(ps_ITS, Root_section != "bulk")
+  
+  ps_18S <- readRDS("study1_ps_18S.rds")
+  ps_18S <- subset_samples(ps_18S, Root_section != "bulk")
+  
+  #rarefy
+  set.seed(20)
+  ps_r_16S <- ps_16S %>%
+    rarefy_even_depth(sample.size = min(sample_sums(ps_16S)), rngseed = FALSE, replace = TRUE, trimOTUs = TRUE, verbose = TRUE)
+  
+  set.seed(20)
+  ps_r_ITS <- ps_ITS %>%
+    rarefy_even_depth(sample.size = min(sample_sums(ps_ITS)), rngseed = FALSE, replace = TRUE, trimOTUs = TRUE, verbose = TRUE)
+  
+  set.seed(20)
+  ps_r_18S <- ps_18S %>%
+   rarefy_even_depth(sample.size = min(sample_sums(ps_18S)), rngseed = FALSE, replace = TRUE, trimOTUs = TRUE, verbose = TRUE)
+  
+  
+  # add column SampleID to metadata
+  sample_data(ps_r_16S)$SampleID <- rownames(sample_data(ps_16S)) 
+  sample_data(ps_r_ITS)$SampleID <- rownames(sample_data(ps_ITS)) 
+  sample_data(ps_r_18S)$SampleID <- rownames(sample_data(ps_18S)) 
+  
+  sample_data(ps_r_16S)$X11C_level <- as.factor(sample_data(ps_r_16S)$X11C_level)
+  sample_data(ps_r_ITS)$X11C_level <-as.factor(sample_data(ps_r_ITS)$X11C_level)
+  sample_data(ps_r_18S)$Mass_fraction_13C_rhizosphere <- as.numeric(sample_data(ps_r_18S)$Mass_fraction_13C_rhizosphere)
+
+
+  ########## prep functions and loop
+  # convert OTU to matrix
+  veganotu <- function(ps_obj) {
+    OTU <- otu_table(ps_obj)
+    if (taxa_are_rows(OTU)) {
+      OTU <- t(OTU)
+    }
+    return(as(OTU, "matrix"))
+  }
+
+  # function to round r2 values to sum to 1 
+  round_to_fixed_sum <- function(x, digits = 2) {
+    x_rounded <- round(x, digits)
+    diff <- 1 - sum(x_rounded)
+    i <- which.max(x_rounded) 
+    x_rounded[i] <- x_rounded[i] + diff
+    return(x_rounded)
+  }
+
+  ps_objects <- c("ps_r_16S", "ps_r_ITS")
+  study1_res <- data.frame()
+  
+  # loop over each phyloseq object
+  for (ps_name in ps_objects) {
+    cat("Processing:", ps_name, "\n")
+    
+    ps_obj <- get(ps_name)
+    
+    #OTU matrix
+    vegtab <- veganotu(ps_obj)
+    otu.dist <- vegdist(vegtab, method='bray') 
+    sample_data_df <- data.frame(sample_data(ps_obj))
+    
+    #adonis2 with interaction
+    ado <- adonis2(formula = otu.dist ~ Root_type * X11C_level, 
+                   data = sample_data_df, 
+                   permutations = 999, 
+                   by = "terms", 
+                   method = "bray")
+    
+    #extract full results as data frame
+    ado_df <- as.data.frame(ado)
+    ado_df$Term <- rownames(ado_df)
+    ado_df$Object <- ps_name
+    
+    #extract and round R²
+    r2_vals <- ado_df$R2[1:4] 
+    r2_rounded <- round_to_fixed_sum(r2_vals)
+    
+    #edd R² rounded to the output
+    ado_df$R2_rounded <- NA
+    ado_df$R2_rounded[1:4] <- r2_rounded
+    
+    #append to results df
+    study1_res <- bind_rows(study1_res, ado_df)
+  }
+  
+########## export PERMANOVA results study 1
+rownames(study1_res) <- NULL
+study1_res
+write_excel(study1_res, "permanova results study1.xlsx")
+
+
+
+
+######################################## perform PERMANOVAS study 2
+
+  ########## load and prep data
+  ps_16S <- readRDS("study2_ps_16S.rds")
+
+  ps_ITS <- readRDS("study2_ps_ITS.rds")
+
+  ps_18S <- readRDS("study2_ps_18S.rds")
+
+  #rarefy
+  set.seed(20)
+  ps_r_16S <- ps_16S %>%
+    rarefy_even_depth(sample.size = min(sample_sums(ps_16S)), rngseed = FALSE, replace = TRUE, trimOTUs = TRUE, verbose = TRUE)
+  
+  set.seed(20)
+  ps_r_ITS <- ps_ITS %>%
+    rarefy_even_depth(sample.size = min(sample_sums(ps_ITS)), rngseed = FALSE, replace = TRUE, trimOTUs = TRUE, verbose = TRUE)
+  
+  set.seed(20)
+  ps_r_18S <- ps_18S %>%
+    rarefy_even_depth(sample.size = min(sample_sums(ps_18S)), rngseed = FALSE, replace = TRUE, trimOTUs = TRUE, verbose = TRUE)
+
+  # add column SampleID to metadata
+  sample_data(ps_r_16S)$SampleID <- rownames(sample_data(ps_16S)) 
+  sample_data(ps_r_ITS)$SampleID <- rownames(sample_data(ps_ITS)) 
+  sample_data(ps_r_18S)$SampleID <- rownames(sample_data(ps_18S)) 
+
+  # make 13C-heavy subsets
+  ps_heavy_16S <- subset_samples(ps_r_16S, Group == "labeled_heavy")
+  ps_heavy_ITS <- subset_samples(ps_r_ITS, Group == "labeled_heavy")
+  ps_heavy_18S <- subset_samples(ps_r_18S, Group == "labeled_heavy")
+
+  # take care that 13C mass frac is numeric
+  sample_data(ps_heavy_16S)$Mass_fraction_13C_rhizosphere <- as.numeric(sample_data(ps_heavy_16S)$Mass_fraction_13C_rhizosphere)
+  sample_data(ps_heavy_ITS)$Mass_fraction_13C_rhizosphere <- as.numeric(sample_data(ps_heavy_ITS)$Mass_fraction_13C_rhizosphere)
+  sample_data(ps_heavy_18S)$Mass_fraction_13C_rhizosphere <- as.numeric(sample_data(ps_heavy_18S)$Mass_fraction_13C_rhizosphere)
+
+
+  
+  ########## prep functions and loop
+  # convert OTU to matrix
+  veganotu <- function(ps_obj) {
+    OTU <- otu_table(ps_obj)
+    if (taxa_are_rows(OTU)) {
+      OTU <- t(OTU)
+    }
+    return(as(OTU, "matrix"))
+  }
+  
+  # function to round r2 values to sum to 1
+  round_to_fixed_sum <- function(x, digits = 2) {
+    x_rounded <- round(x, digits)
+    diff <- 1 - sum(x_rounded)
+    i <- which.max(x_rounded)  # fix largest term
+    x_rounded[i] <- x_rounded[i] + diff
+    return(x_rounded)
+  }
+  
+  ps_objects <- c("ps_heavy_16S", "ps_heavy_18S", "ps_heavy_ITS")
+  study2_res <- data.frame()
+  
+  # loop over each phyloseq object
+  for (ps_name in ps_objects) {
+    cat("Processing:", ps_name, "\n")
+    
+    ps_obj <- get(ps_name)
+    vegtab <- veganotu(ps_obj)
+    otu.dist <- vegdist(vegtab, method = "bray")
+    sample_data_df <- data.frame(sample_data(ps_obj))
+    
+    # define the models
+    formulas <- list(
+      X11C_level = otu.dist ~ Root_type * X11C_level,
+      Mass_fraction_13C_rhizosphere = otu.dist ~ Root_type * Mass_fraction_13C_rhizosphere
+    )
+    
+    # run both models
+    for (model_name in names(formulas)) {
+      ado <- adonis2(formulas[[model_name]],
+                     data = sample_data_df,
+                     permutations = 999,
+                     by = "terms",
+                     method = "bray")
+      
+      ado_df <- as.data.frame(ado)
+      ado_df$Term <- rownames(ado_df)
+      ado_df$Object <- ps_name
+      ado_df$Model <- model_name
+      
+      # extract and round r2
+      r2_vals <- ado_df$R2[1:4]
+      r2_rounded <- round_to_fixed_sum(r2_vals)
+      
+      ado_df$R2_rounded <- NA
+      ado_df$R2_rounded[1:4] <- r2_rounded
+      
+      # append to results df
+      study2_res <- bind_rows(study2_res, ado_df)
+    }
+  }
+  
+########## export PERMANOVA results study 2
+rownames(study2_res) <- NULL
+study2_res
+write_excel(study2_res, "permanova results study2.xlsx")
