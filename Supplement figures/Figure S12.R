@@ -30,7 +30,7 @@ data <- subset(data, Label == "13C" & Location != "Bulk soil")
 head(data)
 
 
-######################################## Figure S11
+######################################## Figure S12
 
   #make a plot to assign groups based on 13C mass fraction in rhizosphere samples
   head(data)
@@ -70,7 +70,7 @@ head(data)
   p$data$Location <- factor(p$data$Location, levels = newSTorder)
   p
   
-  png("Figure S11.png", width = 325, height = 200, units = "mm", res = 1000)
+  png("Figure S12.png", width = 325, height = 200, units = "mm", res = 1000)
   grid.arrange(p, ncol = 1)
   dev.off()
 
