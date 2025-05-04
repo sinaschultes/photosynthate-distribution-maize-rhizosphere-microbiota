@@ -25,7 +25,7 @@ library(cowplot)
   data$Stdevpercent <- data$Stdev*100
 
 
-########## plot6
+########## plot1
   sub1 <- subset(data,Organism=="Bacteria" & Study=="I")
   sub1
   p1 <-
@@ -169,7 +169,7 @@ library(cowplot)
 
 
 
-########## plot6
+########## plot5
   sub1 <- subset(data,Organism=="Fungi" & Study=="II" & Factor=="Carbon_cat_4")
   sub1
   
@@ -240,7 +240,7 @@ library(cowplot)
   p6
 
 
-########## combine to create Figure S6
+########## combine to create Figure S8
 allplot <- plot_grid(
   p1,p4,p3,p6,p2,p5, 
   labels = c("A","","B", "","",""), ncol = 2, label_size = 30, scale=1
