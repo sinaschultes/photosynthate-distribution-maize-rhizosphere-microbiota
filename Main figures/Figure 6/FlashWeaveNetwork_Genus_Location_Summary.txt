@@ -1,1 +1,779 @@
-
+Node1	Node2	Association	weight_base	weight_tip
+001_unidentified Phaeosphaeriaceae	059_unidentified Sandonidae	negative		1
+002_Penicillium	193_Longimicrobiaceae	positive		1
+003_Talaromyces	015_Trichoderma	positive		1
+003_Talaromyces	082_Bryobacter	positive		1
+006_Chrysosporium	039_Eocercomonas	positive		1
+006_Chrysosporium	249_Devosia	negative		1
+010_unidentified Pseudeurotiaceae	022_unidentified Stachybotryaceae	positive		1
+010_unidentified Pseudeurotiaceae	220_LWQ8	positive		1
+011_unidentified Leotiomycetes	039_Eocercomonas	positive	1	
+011_unidentified Leotiomycetes	134_Chitinophaga	positive	1	
+012_unidentified Pyronemataceae	260_unidentified Rhizobiaceae	negative		1
+014_unidentified Bionectriaceae	035_unidentified Spizellomycetales	negative		1
+015_Trichoderma	112_unidentified Microbacteriaceae	positive		1
+015_Trichoderma	188_unidentified Paenibacillaceae	positive	1	
+016_Acremonium	049_Group-Te	positive		1
+016_Acremonium	341_Locationcr3_tip	positive		1
+017_Sarocladium	018_Fusarium	positive		1
+017_Sarocladium	059_unidentified Sandonidae	positive	1	
+018_Fusarium	019_Fusicolla	positive		1
+020_Thelonectria	018_Fusarium	positive		1
+020_Thelonectria	055_Flectomonas	negative	1	
+020_Thelonectria	312_unidentified Pseudomonadaceae	positive		1
+021_Niesslia	086_Stenotrophobacter	positive	1	
+021_Niesslia	094_Vicinamibacteraceae	positive	1	
+021_Niesslia	212_unidentified Sandaracinaceae	positive	1	
+021_Niesslia	225_WD2101soilgroup	positive		1
+022_unidentified Stachybotryaceae	218_CandidatusLloydbacteria	negative	1	
+024_Dichotomopilus	005_Leucothecium	positive		1
+025_Trichocladium	009_unidentified Helotiales	negative		1
+025_Trichocladium	015_Trichoderma	negative		1
+026_unidentified Chaetomiaceae	022_unidentified Stachybotryaceae	positive		1
+026_unidentified Chaetomiaceae	059_unidentified Sandonidae	positive		1
+027_Schizothecium	336_AT_rhizo	positive	1	
+028_unidentified Sordariomycetes	004_Gymnoascus	positive		1
+028_unidentified Sordariomycetes	183_Fictibacillus	positive		1
+029_Microdochium	089_Subgroup7	positive		1
+030_unidentified Ascomycota	038_Cercomonas	positive		1
+031_Malassezia	039_Eocercomonas	negative		1
+031_Malassezia	067_unidentified Limnofilidae	negative		1
+032_Rhodotorula	052_Dujardina	positive		1
+032_Rhodotorula	066_Limnofila	positive		1
+032_Rhodotorula	074_Tremula	negative		1
+032_Rhodotorula	221_TM7a	positive		1
+033_unidentified Lobulomycetales	019_Fusicolla	positive	1	
+033_unidentified Lobulomycetales	049_Group-Te	positive		1
+033_unidentified Lobulomycetales	111_Leifsonia	positive	1	
+033_unidentified Lobulomycetales	149_unidentified Microscillaceae	negative		1
+034_Rhizophlyctis	083_CandidatusSolibacter	positive		1
+034_Rhizophlyctis	202_Vulgatibacter	negative		1
+035_unidentified Spizellomycetales	005_Leucothecium	positive		1
+035_unidentified Spizellomycetales	106_Blastococcus	positive	1	
+036_unidentified Chytridiomycota	305_EPR3968-O8a-Bc78	positive		1
+037_Rhizopus	046_unidentified Euglyphida	positive		1
+037_Rhizopus	051_unidentified Allapsidae	positive		1
+038_Cercomonas	038_Cercomonas	positive	3	3
+038_Cercomonas	039_Eocercomonas	positive	1	
+038_Cercomonas	150_Dyadobacter	positive	1	1
+038_Cercomonas	335_Luteolibacter	positive		1
+038_Cercomonas	339_Locationcr2_base	positive	1	
+039_Eocercomonas	039_Eocercomonas	positive	1	2
+039_Eocercomonas	049_Group-Te	positive	2	2
+039_Eocercomonas	335_Luteolibacter	negative		1
+040_Metabolomonas	001_unidentified Phaeosphaeriaceae	positive		1
+040_Metabolomonas	039_Eocercomonas	negative		1
+040_Metabolomonas	323_SAR324clade(MarinegroupB)	positive	1	
+041_Paracercomonas	039_Eocercomonas	negative	3	
+041_Paracercomonas	039_Eocercomonas	positive	1	1
+041_Paracercomonas	041_Paracercomonas	negative		1
+041_Paracercomonas	041_Paracercomonas	positive	6	4
+041_Paracercomonas	045_Euglypha	positive		1
+041_Paracercomonas	049_Group-Te	positive	3	3
+041_Paracercomonas	051_unidentified Allapsidae	positive		1
+041_Paracercomonas	054_Proleptomonas	negative		1
+041_Paracercomonas	058_Sandona	negative	1	
+041_Paracercomonas	059_unidentified Sandonidae	negative		2
+041_Paracercomonas	059_unidentified Sandonidae	positive		1
+041_Paracercomonas	066_Limnofila	positive		1
+041_Paracercomonas	067_unidentified Limnofilidae	positive		1
+041_Paracercomonas	068_unidentified Spongomonadidae	positive	1	
+041_Paracercomonas	096_IMCC26256	positive		1
+041_Paracercomonas	097_Iamia	negative		1
+041_Paracercomonas	132_unidentified Armatimonadota	positive		1
+041_Paracercomonas	146_Pontibacter	positive	1	
+041_Paracercomonas	157_unidentified Sphingobacteriaceae	positive	1	
+041_Paracercomonas	173_KD4-96	positive	1	
+041_Paracercomonas	176_Sericytochromatia	negative		1
+041_Paracercomonas	176_Sericytochromatia	positive	1	
+041_Paracercomonas	179_Babeliales	positive	1	
+041_Paracercomonas	184_Pullulanibacillus	positive		1
+041_Paracercomonas	220_LWQ8	negative		1
+041_Paracercomonas	236_Caulobacter	positive	1	
+042_Rhogostoma	049_Group-Te	positive	1	
+042_Rhogostoma	059_unidentified Sandonidae	negative		1
+043_Mesofila	039_Eocercomonas	positive		1
+043_Mesofila	041_Paracercomonas	negative		1
+043_Mesofila	223_unidentified Saccharimonadales	positive	1	
+043_Mesofila	283_Burkholderia-Caballeronia-Paraburkholderia	negative	1	
+043_Mesofila	327_Chthoniobacter	positive		1
+044_unidentified Mesofilidae	016_Acremonium	negative		1
+044_unidentified Mesofilidae	024_Dichotomopilus	negative		1
+046_unidentified Euglyphida	039_Eocercomonas	positive		1
+047_Allantion	012_unidentified Pyronemataceae	positive	1	
+048_Allapsa	059_unidentified Sandonidae	negative	1	1
+048_Allapsa	165_unidentified Oligoflexales	positive	1	
+049_Group-Te	049_Group-Te	positive	10	4
+049_Group-Te	066_Limnofila	positive	4	1
+049_Group-Te	340_Locationcr2_tip	negative		1
+049_Group-Te	341_Locationcr3_tip	positive		1
+050_Teretomonas	051_unidentified Allapsidae	positive		1
+050_Teretomonas	053_unidentified Glissomonadida_Clade-Y	positive	1	
+050_Teretomonas	066_Limnofila	negative		1
+051_unidentified Allapsidae	023_Botryotrichum	negative		1
+051_unidentified Allapsidae	038_Cercomonas	negative	1	
+051_unidentified Allapsidae	039_Eocercomonas	positive		1
+051_unidentified Allapsidae	049_Group-Te	negative		2
+051_unidentified Allapsidae	049_Group-Te	positive	4	2
+051_unidentified Allapsidae	051_unidentified Allapsidae	negative	1	
+051_unidentified Allapsidae	051_unidentified Allapsidae	positive	2	1
+051_unidentified Allapsidae	053_unidentified Glissomonadida_Clade-Y	negative		1
+051_unidentified Allapsidae	059_unidentified Sandonidae	positive		1
+051_unidentified Allapsidae	065_Kraken	positive	1	
+051_unidentified Allapsidae	067_unidentified Limnofilidae	positive	1	
+051_unidentified Allapsidae	242_CandidatusParacaedibacter	negative	1	
+051_unidentified Allapsidae	249_Devosia	negative	1	
+051_unidentified Allapsidae	337_Locationcr1_base	positive	1	
+053_unidentified Glissomonadida_Clade-Y	049_Group-Te	positive	3	
+053_unidentified Glissomonadida_Clade-Y	059_unidentified Sandonidae	negative	1	
+053_unidentified Glissomonadida_Clade-Y	067_unidentified Limnofilidae	positive	1	1
+054_Proleptomonas	007_Scytalidium	positive	1	
+054_Proleptomonas	018_Fusarium	negative		1
+054_Proleptomonas	049_Group-Te	positive	1	
+054_Proleptomonas	051_unidentified Allapsidae	positive	1	1
+054_Proleptomonas	053_unidentified Glissomonadida_Clade-Y	positive	1	
+054_Proleptomonas	060_unidentified Glissomonadida	positive	1	
+054_Proleptomonas	074_Tremula	positive		1
+054_Proleptomonas	223_unidentified Saccharimonadales	positive	1	
+054_Proleptomonas	336_AT_rhizo	negative	1	
+054_Proleptomonas	343_Locationprim_tip	positive		1
+055_Flectomonas	049_Group-Te	positive	1	
+055_Flectomonas	195_Latescibacteraceae	negative		1
+056_Mollimonas	049_Group-Te	positive	2	
+056_Mollimonas	054_Proleptomonas	negative	1	
+057_Neoheteromita	051_unidentified Allapsidae	positive	1	
+058_Sandona	005_Leucothecium	negative		1
+058_Sandona	014_unidentified Bionectriaceae	positive		1
+058_Sandona	039_Eocercomonas	negative		1
+058_Sandona	039_Eocercomonas	positive	1	
+058_Sandona	049_Group-Te	negative		1
+058_Sandona	051_unidentified Allapsidae	negative		2
+058_Sandona	051_unidentified Allapsidae	positive	1	
+058_Sandona	053_unidentified Glissomonadida_Clade-Y	negative	1	
+058_Sandona	058_Sandona	positive	3	4
+058_Sandona	059_unidentified Sandonidae	negative		1
+058_Sandona	066_Limnofila	negative	1	
+058_Sandona	075_unidentified Cercozoa	negative	1	
+058_Sandona	094_Vicinamibacteraceae	positive	1	
+058_Sandona	107_Glycomyces	positive		1
+058_Sandona	112_unidentified Microbacteriaceae	positive		1
+058_Sandona	119_unidentified Nocardioidaceae	positive		1
+058_Sandona	125_Actinocorallia	positive	1	
+058_Sandona	131_Fimbriimonadaceae	positive	1	
+058_Sandona	142_unidentified Cyclobacteriaceae	positive	1	
+058_Sandona	150_Dyadobacter	positive		1
+058_Sandona	201_unidentified Myxococcaceae	positive		1
+058_Sandona	256_Ensifer	positive	1	
+058_Sandona	259_Shinella	negative	1	
+058_Sandona	267_Limibaculum	positive		1
+058_Sandona	312_unidentified Pseudomonadaceae	positive		1
+059_unidentified Sandonidae	005_Leucothecium	positive		1
+059_unidentified Sandonidae	038_Cercomonas	positive	1	
+059_unidentified Sandonidae	039_Eocercomonas	positive		3
+059_unidentified Sandonidae	049_Group-Te	negative	1	2
+059_unidentified Sandonidae	052_Dujardina	negative		1
+059_unidentified Sandonidae	059_unidentified Sandonidae	negative		1
+059_unidentified Sandonidae	059_unidentified Sandonidae	positive	2	6
+059_unidentified Sandonidae	151_env.OPS17	negative		1
+059_unidentified Sandonidae	186_Cohnella	positive	1	
+059_unidentified Sandonidae	190_Gemmatimonas	positive	1	
+059_unidentified Sandonidae	203_Haliangium	negative		1
+059_unidentified Sandonidae	220_LWQ8	positive		1
+059_unidentified Sandonidae	249_Devosia	negative	1	
+059_unidentified Sandonidae	315_Chujaibacter	positive		1
+059_unidentified Sandonidae	327_Chthoniobacter	positive	1	
+060_unidentified Glissomonadida	039_Eocercomonas	positive		1
+060_unidentified Glissomonadida	059_unidentified Sandonidae	negative	1	
+060_unidentified Glissomonadida	061_unidentified unidentified Glissomonadida	positive		1
+060_unidentified Glissomonadida	290_unidentified Methylophilaceae	negative		1
+063_unidentified Novel-Gran-6	039_Eocercomonas	positive	1	
+063_unidentified Novel-Gran-6	136_Flavisolibacter	positive	1	
+064_Nudifila	058_Sandona	negative		1
+065_Kraken	339_Locationcr2_base	negative	1	
+066_Limnofila	066_Limnofila	positive	1	
+067_unidentified Limnofilidae	038_Cercomonas	positive		1
+067_unidentified Limnofilidae	045_Euglypha	positive	1	
+067_unidentified Limnofilidae	049_Group-Te	positive	6	1
+067_unidentified Limnofilidae	066_Limnofila	negative	1	
+067_unidentified Limnofilidae	066_Limnofila	positive	1	
+067_unidentified Limnofilidae	067_unidentified Limnofilidae	positive	3	
+067_unidentified Limnofilidae	151_env.OPS17	positive		1
+067_unidentified Limnofilidae	196_Latescibacterota	positive		1
+067_unidentified Limnofilidae	235_Brevundimonas	negative	1	
+069_Peregrinia	050_Teretomonas	positive	1	
+070_Thaumatomastix	062_unidentified Novel-Gran-5	positive	1	
+073_unidentified Thecofilosea	039_Eocercomonas	positive		1
+073_unidentified Thecofilosea	049_Group-Te	negative		1
+074_Tremula	049_Group-Te	positive	1	
+074_Tremula	051_unidentified Allapsidae	positive	1	
+074_Tremula	173_KD4-96	positive	1	
+075_unidentified Cercozoa	038_Cercomonas	negative	1	
+075_unidentified Cercozoa	059_unidentified Sandonidae	negative	1	
+075_unidentified Cercozoa	067_unidentified Limnofilidae	negative		1
+075_unidentified Cercozoa	075_unidentified Cercozoa	positive		1
+075_unidentified Cercozoa	134_Chitinophaga	positive	1	
+076_unidentified Leptophryidae	035_unidentified Spizellomycetales	positive	1	
+077_Abditibacterium	111_Leifsonia	negative	1	
+077_Abditibacterium	127_Gaiella	positive	1	
+078_Acidipila	251_Hyphomicrobium	positive		1
+081_unidentified Acidobacteriales	150_Dyadobacter	negative		1
+081_unidentified Acidobacteriales	202_Vulgatibacter	negative	1	
+081_unidentified Acidobacteriales	250_unidentified Devosiaceae	negative	1	
+081_unidentified Acidobacteriales	306_Acidibacter	positive		1
+082_Bryobacter	136_Flavisolibacter	positive		1
+083_CandidatusSolibacter	135_Edaphobaculum	positive	1	
+083_CandidatusSolibacter	183_Fictibacillus	positive	1	
+084_Subgroup2	305_EPR3968-O8a-Bc78	positive		1
+084_Subgroup2	309_KI89Aclade	positive		1
+086_Stenotrophobacter	038_Cercomonas	positive		1
+086_Stenotrophobacter	059_unidentified Sandonidae	negative		1
+086_Stenotrophobacter	196_Latescibacterota	positive		1
+086_Stenotrophobacter	240_unidentified Micavibrionales	positive	1	
+087_unidentified Blastocatellaceae	160_Bdellovibrio	positive	1	
+087_unidentified Blastocatellaceae	165_unidentified Oligoflexales	positive		1
+088_RB41	151_env.OPS17	positive	1	
+088_RB41	249_Devosia	negative	1	
+088_RB41	278_Sphingomonas	negative	1	
+088_RB41	300_TRA3-20	positive		1
+088_RB41	326_CandidatusUdaeobacter	positive		1
+089_Subgroup7	099_Ilumatobacter	positive		1
+089_Subgroup7	152_FFCH9454	positive	1	
+089_Subgroup7	203_Haliangium	positive	1	
+090_Subgroup25	087_unidentified Blastocatellaceae	positive		1
+091_Subgroup5	024_Dichotomopilus	positive		1
+091_Subgroup5	046_unidentified Euglyphida	positive	1	
+091_Subgroup5	083_CandidatusSolibacter	positive	1	
+091_Subgroup5	198_bacteriap25	positive		1
+091_Subgroup5	203_Haliangium	positive	1	
+091_Subgroup5	238_Dongia	positive		1
+091_Subgroup5	251_Hyphomicrobium	positive	1	
+091_Subgroup5	299_unidentified Sutterellaceae	positive	1	
+092_Subgroup10	153_KD3-93	negative		1
+093_unidentified Vicinamibacterales	049_Group-Te	negative	1	
+093_unidentified Vicinamibacterales	077_Abditibacterium	positive	1	
+093_unidentified Vicinamibacterales	094_Vicinamibacteraceae	positive	1	
+093_unidentified Vicinamibacterales	127_Gaiella	positive		1
+093_unidentified Vicinamibacterales	216_CandidatusAdlerbacteria	negative	1	
+093_unidentified Vicinamibacterales	301_CCD24	positive	1	1
+094_Vicinamibacteraceae	018_Fusarium	negative		1
+095_unidentified Actinomarinales	173_KD4-96	positive		1
+095_unidentified Actinomarinales	251_Hyphomicrobium	positive		1
+100_Actinospica	039_Eocercomonas	negative	1	
+100_Actinospica	160_Bdellovibrio	negative	1	
+100_Actinospica	315_Chujaibacter	positive	1	
+101_Catenulispora	315_Chujaibacter	positive	1	
+102_Mycobacterium	059_unidentified Sandonidae	positive		1
+102_Mycobacterium	171_JG30-KF-CM45	positive		1
+103_Nocardia	060_unidentified Glissomonadida	positive		1
+103_Nocardia	233_CandidatusNucleicultrix	negative		1
+104_Rhodococcus	035_unidentified Spizellomycetales	negative		1
+105_Acidothermus	152_FFCH9454	negative		1
+105_Acidothermus	171_JG30-KF-CM45	positive		1
+108_Angustibacter	202_Vulgatibacter	positive		1
+108_Angustibacter	287_unidentified Comamonadaceae	positive	1	
+108_Angustibacter	334_unidentified Pedosphaeraceae	negative	1	
+109_unidentified Intrasporangiaceae	072_unidentified Thaumatomonadida	negative		1
+110_Agromyces	067_unidentified Limnofilidae	negative	1	
+113_Arthrobacter	115_unidentified Micrococcaceae	positive		1
+114_Paenarthrobacter	041_Paracercomonas	negative	1	
+114_Paenarthrobacter	115_unidentified Micrococcaceae	positive	1	
+115_unidentified Micrococcaceae	049_Group-Te	negative	1	
+115_unidentified Micrococcaceae	059_unidentified Sandonidae	positive	1	
+115_unidentified Micrococcaceae	201_unidentified Myxococcaceae	positive		1
+115_unidentified Micrococcaceae	249_Devosia	positive		1
+115_unidentified Micrococcaceae	263_Bradyrhizobium	positive	1	
+116_Promicromonospora	039_Eocercomonas	positive	1	
+116_Promicromonospora	071_Thaumatomonas	positive		1
+116_Promicromonospora	320_Luteimonas	positive		1
+117_Aeromicrobium	265_Rhodopseudomonas	positive	1	
+117_Aeromicrobium	307_CandidatusOvatusbacter	negative	1	
+118_Nocardioides	125_Actinocorallia	positive	1	
+118_Nocardioides	274_Novosphingobium	positive	1	
+118_Nocardioides	315_Chujaibacter	positive		1
+118_Nocardioides	318_Rhodanobacter	positive		1
+119_unidentified Nocardioidaceae	151_env.OPS17	negative		1
+119_unidentified Nocardioidaceae	242_CandidatusParacaedibacter	negative		1
+119_unidentified Nocardioidaceae	279_unidentified Sphingomonadaceae	positive		1
+120_Microlunatus	194_S0134terrestrialgroup	positive	1	
+120_Microlunatus	282_B1-7BS	positive		1
+120_Microlunatus	300_TRA3-20	positive	1	
+121_Pseudonocardia	196_Latescibacterota	positive	1	
+122_Streptomyces	035_unidentified Spizellomycetales	negative		1
+122_Streptomyces	039_Eocercomonas	negative	1	
+122_Streptomyces	248_D05-2	positive		1
+122_Streptomyces	263_Bradyrhizobium	positive	1	
+122_Streptomyces	283_Burkholderia-Caballeronia-Paraburkholderia	positive	1	
+122_Streptomyces	316_Dyella	positive		1
+123_unidentified Streptomycetaceae	178_Vampirovibrionales	positive	1	
+123_unidentified Streptomycetaceae	331_Ellin516	positive	1	
+124_Streptosporangium	096_IMCC26256	positive		1
+126_MB-A2-108	127_Gaiella	positive		1
+126_MB-A2-108	128_unidentified Gaiellales	positive	1	
+126_MB-A2-108	204_mle1-27	negative	1	
+126_MB-A2-108	225_WD2101soilgroup	positive		1
+126_MB-A2-108	239_unidentified Elsterales	positive		1
+128_unidentified Gaiellales	038_Cercomonas	negative		1
+128_unidentified Gaiellales	105_Acidothermus	positive	1	
+128_unidentified Gaiellales	127_Gaiella	positive		1
+128_unidentified Gaiellales	128_unidentified Gaiellales	positive		1
+128_unidentified Gaiellales	160_Bdellovibrio	negative		1
+128_unidentified Gaiellales	174_C0119	positive	1	
+128_unidentified Gaiellales	290_unidentified Methylophilaceae	negative		1
+129_67-14	196_Latescibacterota	positive	1	
+129_67-14	243_unidentified Paracaedibacteraceae	negative	1	
+129_67-14	270_unidentified Rhodospirillales	positive		1
+129_67-14	282_B1-7BS	positive		1
+129_67-14	299_unidentified Sutterellaceae	negative		1
+130_Armatimonadales	315_Chujaibacter	negative	1	
+132_unidentified Armatimonadota	033_unidentified Lobulomycetales	positive	1	
+132_unidentified Armatimonadota	260_unidentified Rhizobiaceae	positive	1	
+134_Chitinophaga	171_JG30-KF-CM45	negative		1
+134_Chitinophaga	196_Latescibacterota	negative		1
+134_Chitinophaga	325_cvE6	positive		1
+135_Edaphobaculum	136_Flavisolibacter	positive	1	
+137_Flavitalea	158_Kapabacteriales	positive	1	
+138_Niastella	121_Pseudonocardia	negative		1
+138_Niastella	147_Chryseolinea	positive	1	
+138_Niastella	151_env.OPS17	positive	1	
+138_Niastella	171_JG30-KF-CM45	negative		1
+139_Segetibacter	135_Edaphobaculum	positive	1	
+140_unidentified Chitinophagaceae	137_Flavitalea	positive	1	
+140_unidentified Chitinophagaceae	149_unidentified Microscillaceae	positive		1
+140_unidentified Chitinophagaceae	182_Bacillus	positive	1	1
+140_unidentified Chitinophagaceae	218_CandidatusLloydbacteria	positive		1
+140_unidentified Chitinophagaceae	235_Brevundimonas	negative		1
+140_unidentified Chitinophagaceae	279_unidentified Sphingomonadaceae	positive		1
+141_unidentified Chitinophagales	135_Edaphobaculum	positive	1	
+141_unidentified Chitinophagales	136_Flavisolibacter	positive		1
+141_unidentified Chitinophagales	322_unidentified Proteobacteria	positive	1	1
+142_unidentified Cyclobacteriaceae	133_Aurantisolimonas	positive	1	
+143_Rhodocytophaga	142_unidentified Cyclobacteriaceae	positive	1	
+143_Rhodocytophaga	190_Gemmatimonas	negative	1	
+143_Rhodocytophaga	271_bac2nit3	positive	1	
+143_Rhodocytophaga	307_CandidatusOvatusbacter	positive	1	
+144_Sporocytophaga	168_A4b	positive	1	
+145_Adhaeribacter	153_KD3-93	positive	1	
+145_Adhaeribacter	158_Kapabacteriales	positive		1
+145_Adhaeribacter	160_Bdellovibrio	positive	1	
+145_Adhaeribacter	289_Methylotenera	positive	1	
+145_Adhaeribacter	332_Ellin517	positive	1	
+146_Pontibacter	049_Group-Te	negative	1	
+146_Pontibacter	139_Segetibacter	positive	1	
+146_Pontibacter	183_Fictibacillus	positive	1	
+146_Pontibacter	217_CandidatusAzambacteria	positive	1	
+146_Pontibacter	228_Roseomonas	negative	1	
+146_Pontibacter	235_Brevundimonas	positive	1	
+146_Pontibacter	251_Hyphomicrobium	negative	1	
+146_Pontibacter	302_Coxiella	positive	1	
+146_Pontibacter	316_Dyella	positive		1
+148_Ohtaekwangia	038_Cercomonas	positive		1
+148_Ohtaekwangia	086_Stenotrophobacter	positive	1	
+148_Ohtaekwangia	154_Arcticibacter	positive		1
+149_unidentified Microscillaceae	236_Caulobacter	negative		1
+149_unidentified Microscillaceae	341_Locationcr3_tip	negative		1
+151_env.OPS17	105_Acidothermus	negative		1
+152_FFCH9454	066_Limnofila	positive		1
+154_Arcticibacter	150_Dyadobacter	positive		1
+154_Arcticibacter	157_unidentified Sphingobacteriaceae	positive		1
+155_Parapedobacter	137_Flavitalea	negative		1
+156_Pedobacter	016_Acremonium	positive		1
+156_Pedobacter	078_Acidipila	negative	1	
+156_Pedobacter	135_Edaphobaculum	positive		1
+156_Pedobacter	145_Adhaeribacter	positive		1
+156_Pedobacter	153_KD3-93	positive		1
+156_Pedobacter	327_Chthoniobacter	positive		1
+156_Pedobacter	331_Ellin516	negative	1	
+157_unidentified Sphingobacteriaceae	134_Chitinophaga	positive	1	
+157_unidentified Sphingobacteriaceae	151_env.OPS17	positive		1
+157_unidentified Sphingobacteriaceae	235_Brevundimonas	positive	1	
+157_unidentified Sphingobacteriaceae	337_Locationcr1_base	positive	1	
+159_Peredibacter	015_Trichoderma	positive	1	
+159_Peredibacter	157_unidentified Sphingobacteriaceae	positive		1
+159_Peredibacter	210_Polyangium	positive	1	
+159_Peredibacter	328_LD29	positive	1	
+160_Bdellovibrio	045_Euglypha	positive		1
+160_Bdellovibrio	152_FFCH9454	positive		1
+160_Bdellovibrio	214_CandidatusUhrbacteria	positive		1
+160_Bdellovibrio	242_CandidatusParacaedibacter	positive	1	
+160_Bdellovibrio	285_Curvibacter	positive	1	
+160_Bdellovibrio	326_CandidatusUdaeobacter	positive	1	
+160_Bdellovibrio	332_Ellin517	positive		1
+161_OM27clade	067_unidentified Limnofilidae	positive	1	
+161_OM27clade	105_Acidothermus	positive		1
+161_OM27clade	249_Devosia	positive	1	
+162_0319-6G20	008_Oidiodendron	positive		1
+162_0319-6G20	019_Fusicolla	negative		1
+162_0319-6G20	087_unidentified Blastocatellaceae	positive		1
+162_0319-6G20	123_unidentified Streptomycetaceae	positive	1	
+162_0319-6G20	198_bacteriap25	positive		1
+163_Oligoflexales	167_unidentified Caldilineaceae	positive		1
+164_Oligoflexus	058_Sandona	positive	1	
+164_Oligoflexus	062_unidentified Novel-Gran-5	positive		1
+164_Oligoflexus	083_CandidatusSolibacter	positive	1	
+164_Oligoflexus	133_Aurantisolimonas	positive	1	
+164_Oligoflexus	146_Pontibacter	positive	2	
+164_Oligoflexus	198_bacteriap25	positive	1	
+164_Oligoflexus	303_Aquicella	positive	1	
+165_unidentified Oligoflexales	183_Fictibacillus	positive		1
+166_Silvanigrella	084_Subgroup2	positive		1
+168_A4b	085_JGI0001001-H03	positive	1	
+170_AKIW781	196_Latescibacterota	positive		1
+172_S085	006_Chrysosporium	positive		1
+172_S085	182_Bacillus	positive		1
+172_S085	239_unidentified Elsterales	positive		1
+175_TK10	127_Gaiella	positive	1	
+175_TK10	128_unidentified Gaiellales	positive	1	
+175_TK10	221_TM7a	negative	1	
+175_TK10	237_unidentified Caulobacteraceae	negative		1
+175_TK10	300_TRA3-20	positive	1	1
+175_TK10	301_CCD24	positive	1	
+176_Sericytochromatia	059_unidentified Sandonidae	positive		1
+177_Vampirovibrio	066_Limnofila	negative	1	
+177_Vampirovibrio	152_FFCH9454	positive		1
+178_Vampirovibrionales	080_Granulicella	positive	1	
+179_Babeliales	147_Chryseolinea	negative	1	
+179_Babeliales	339_Locationcr2_base	positive	1	
+180_possiblegenus04	177_Vampirovibrio	positive	1	1
+180_possiblegenus04	195_Latescibacteraceae	negative		1
+182_Bacillus	085_JGI0001001-H03	positive	1	
+182_Bacillus	195_Latescibacteraceae	positive		1
+182_Bacillus	215_Berkelbacteria	positive	1	
+182_Bacillus	245_Bosea	negative	1	
+183_Fictibacillus	085_JGI0001001-H03	positive	1	
+183_Fictibacillus	189_Herbinix	positive		1
+183_Fictibacillus	309_KI89Aclade	positive		1
+184_Pullulanibacillus	344_Locationsem_tip	positive		1
+185_unidentified Bacillales	110_Agromyces	positive		1
+186_Cohnella	249_Devosia	positive	1	
+186_Cohnella	316_Dyella	positive		1
+187_Paenibacillus	009_unidentified Helotiales	positive		1
+187_Paenibacillus	041_Paracercomonas	positive	1	
+187_Paenibacillus	059_unidentified Sandonidae	positive		1
+187_Paenibacillus	089_Subgroup7	negative		1
+187_Paenibacillus	093_unidentified Vicinamibacterales	negative		1
+187_Paenibacillus	113_Arthrobacter	positive		1
+187_Paenibacillus	115_unidentified Micrococcaceae	positive	1	
+187_Paenibacillus	116_Promicromonospora	positive	1	
+187_Paenibacillus	154_Arcticibacter	positive	1	
+187_Paenibacillus	155_Parapedobacter	positive		1
+187_Paenibacillus	156_Pedobacter	positive		1
+187_Paenibacillus	187_Paenibacillus	positive		1
+187_Paenibacillus	219_Parcubacteria	negative		1
+187_Paenibacillus	226_Pirellula	negative		1
+187_Paenibacillus	236_Caulobacter	positive	1	
+187_Paenibacillus	268_unidentified Magnetospiraceae	negative	1	
+187_Paenibacillus	288_Variovorax	positive	1	
+187_Paenibacillus	296_unidentified Oxalobacteraceae	positive	1	
+187_Paenibacillus	306_Acidibacter	negative	1	
+187_Paenibacillus	326_CandidatusUdaeobacter	negative		1
+187_Paenibacillus	330_unidentified Opitutaceae	positive	1	
+191_Roseisolibacter	144_Sporocytophaga	negative	1	
+192_unidentified Gemmatimonadaceae	082_Bryobacter	positive	1	
+192_unidentified Gemmatimonadaceae	093_unidentified Vicinamibacterales	positive		1
+193_Longimicrobiaceae	077_Abditibacterium	negative	1	
+193_Longimicrobiaceae	260_unidentified Rhizobiaceae	positive	1	
+194_S0134terrestrialgroup	128_unidentified Gaiellales	positive	1	
+194_S0134terrestrialgroup	313_unidentified Steroidobacteraceae	positive		1
+197_Rokubacteriales	129_67-14	positive		1
+197_Rokubacteriales	194_S0134terrestrialgroup	positive		1
+198_bacteriap25	049_Group-Te	negative	1	
+198_bacteriap25	251_Hyphomicrobium	positive		1
+198_bacteriap25	299_unidentified Sutterellaceae	positive		1
+199_Anaeromyxobacter	060_unidentified Glissomonadida	positive	1	
+200_Myxococcus	041_Paracercomonas	positive		1
+200_Myxococcus	151_env.OPS17	positive		1
+200_Myxococcus	325_cvE6	positive		1
+201_unidentified Myxococcaceae	186_Cohnella	positive	1	
+201_unidentified Myxococcaceae	330_unidentified Opitutaceae	positive	1	
+202_Vulgatibacter	013_Clonostachys	positive		1
+202_Vulgatibacter	193_Longimicrobiaceae	positive		1
+203_Haliangium	173_KD4-96	positive		1
+205_Nannocystaceae	096_IMCC26256	positive		1
+205_Nannocystaceae	172_S085	positive		1
+206_Nannocystis	159_Peredibacter	positive	1	
+206_Nannocystis	208_Phaselicystis	positive	1	
+208_Phaselicystis	042_Rhogostoma	positive	1	
+208_Phaselicystis	211_Sandaracinus	positive	1	
+208_Phaselicystis	328_LD29	positive	1	
+210_Polyangium	082_Bryobacter	negative	1	
+211_Sandaracinus	225_WD2101soilgroup	negative	1	
+213_Nitrospira	082_Bryobacter	positive		1
+213_Nitrospira	090_Subgroup25	positive		1
+213_Nitrospira	093_unidentified Vicinamibacterales	positive		1
+213_Nitrospira	114_Paenarthrobacter	negative	1	
+213_Nitrospira	140_unidentified Chitinophagaceae	positive	1	
+218_CandidatusLloydbacteria	038_Cercomonas	positive	1	
+218_CandidatusLloydbacteria	326_CandidatusUdaeobacter	positive	1	
+219_Parcubacteria	059_unidentified Sandonidae	negative	1	
+219_Parcubacteria	070_Thaumatomastix	positive	1	
+219_Parcubacteria	110_Agromyces	negative		1
+219_Parcubacteria	160_Bdellovibrio	positive	1	
+219_Parcubacteria	240_unidentified Micavibrionales	positive	1	
+219_Parcubacteria	241_unidentified Micropepsaceae	positive		1
+219_Parcubacteria	283_Burkholderia-Caballeronia-Paraburkholderia	negative	1	
+221_TM7a	036_unidentified Chytridiomycota	negative		1
+221_TM7a	157_unidentified Sphingobacteriaceae	positive	1	
+222_Saccharimonadales	039_Eocercomonas	positive		1
+222_Saccharimonadales	058_Sandona	positive	1	
+222_Saccharimonadales	145_Adhaeribacter	positive		1
+222_Saccharimonadales	235_Brevundimonas	positive	1	
+223_unidentified Saccharimonadales	134_Chitinophaga	positive		1
+223_unidentified Saccharimonadales	151_env.OPS17	positive	1	
+224_CPla-3termitegroup	096_IMCC26256	positive		1
+224_CPla-3termitegroup	171_JG30-KF-CM45	positive		1
+225_WD2101soilgroup	321_Lysobacter	negative		1
+226_Pirellula	038_Cercomonas	negative	1	
+226_Pirellula	058_Sandona	negative	1	
+226_Pirellula	134_Chitinophaga	positive	1	
+226_Pirellula	157_unidentified Sphingobacteriaceae	negative	1	
+226_Pirellula	181_Tumebacillus	positive		1
+227_unidentified Pirellulaceae	174_C0119	positive		1
+228_Roseomonas	327_Chthoniobacter	positive	1	
+229_unidentified Acetobacteraceae	078_Acidipila	positive	1	
+230_Azospirillum	005_Leucothecium	negative		1
+230_Azospirillum	049_Group-Te	positive	1	1
+230_Azospirillum	060_unidentified Glissomonadida	negative		1
+230_Azospirillum	125_Actinocorallia	positive	1	
+230_Azospirillum	263_Bradyrhizobium	positive	1	
+231_Skermanella	049_Group-Te	positive		1
+231_Skermanella	067_unidentified Limnofilidae	positive	1	
+231_Skermanella	192_unidentified Gemmatimonadaceae	positive	1	
+231_Skermanella	232_Inquilinus	negative	1	
+233_CandidatusNucleicultrix	151_env.OPS17	positive		1
+234_Asticcacaulis	196_Latescibacterota	negative		1
+235_Brevundimonas	039_Eocercomonas	negative	1	
+235_Brevundimonas	321_Lysobacter	positive		1
+237_unidentified Caulobacteraceae	049_Group-Te	positive	1	
+237_unidentified Caulobacteraceae	192_unidentified Gemmatimonadaceae	negative		1
+239_unidentified Elsterales	096_IMCC26256	positive		1
+239_unidentified Elsterales	207_BIrii41	positive	1	
+239_unidentified Elsterales	282_B1-7BS	positive		1
+239_unidentified Elsterales	314_unidentified Gammaproteobacteria	negative	1	
+239_unidentified Elsterales	330_unidentified Opitutaceae	negative		1
+240_unidentified Micavibrionales	152_FFCH9454	positive		1
+241_unidentified Micropepsaceae	059_unidentified Sandonidae	negative		1
+241_unidentified Micropepsaceae	061_unidentified unidentified Glissomonadida	negative		1
+241_unidentified Micropepsaceae	083_CandidatusSolibacter	positive		1
+241_unidentified Micropepsaceae	242_CandidatusParacaedibacter	positive		1
+241_unidentified Micropepsaceae	337_Locationcr1_base	negative	1	
+242_CandidatusParacaedibacter	049_Group-Te	negative		1
+244_Reyranella	190_Gemmatimonas	positive	1	
+244_Reyranella	263_Bradyrhizobium	positive		1
+244_Reyranella	318_Rhodanobacter	positive	1	
+246_Microvirga	110_Agromyces	positive	1	
+246_Microvirga	196_Latescibacterota	positive	1	1
+246_Microvirga	197_Rokubacteriales	positive		1
+246_Microvirga	268_unidentified Magnetospiraceae	positive	1	
+247_unidentified Beijerinckiaceae	038_Cercomonas	positive	1	
+247_unidentified Beijerinckiaceae	251_Hyphomicrobium	positive	1	
+249_Devosia	203_Haliangium	negative	1	
+251_Hyphomicrobium	321_Lysobacter	positive		1
+252_Methyloligellaceae	046_unidentified Euglyphida	positive	1	
+252_Methyloligellaceae	081_unidentified Acidobacteriales	positive		1
+252_Methyloligellaceae	127_Gaiella	positive	1	
+252_Methyloligellaceae	198_bacteriap25	positive		1
+252_Methyloligellaceae	203_Haliangium	positive	1	
+252_Methyloligellaceae	238_Dongia	positive		1
+253_unidentified Methyloligellaceae	093_unidentified Vicinamibacterales	positive		1
+253_unidentified Methyloligellaceae	094_Vicinamibacteraceae	positive		1
+253_unidentified Methyloligellaceae	182_Bacillus	positive	1	
+253_unidentified Methyloligellaceae	270_unidentified Rhodospirillales	positive	1	1
+254_Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium	005_Leucothecium	negative		1
+254_Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium	063_unidentified Novel-Gran-6	negative		1
+254_Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium	235_Brevundimonas	positive		1
+254_Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium	263_Bradyrhizobium	positive	1	
+255_Aminobacter	018_Fusarium	positive		1
+255_Aminobacter	202_Vulgatibacter	positive		1
+257_Mesorhizobium	049_Group-Te	positive	1	
+258_Phyllobacterium	059_unidentified Sandonidae	positive	2	
+259_Shinella	277_Sphingobium	positive	1	
+260_unidentified Rhizobiaceae	202_Vulgatibacter	positive		1
+260_unidentified Rhizobiaceae	217_CandidatusAzambacteria	negative	1	
+260_unidentified Rhizobiaceae	233_CandidatusNucleicultrix	negative	1	
+260_unidentified Rhizobiaceae	279_unidentified Sphingomonadaceae	positive		1
+261_Nordella	059_unidentified Sandonidae	negative	1	
+261_Nordella	081_unidentified Acidobacteriales	positive		1
+261_Nordella	144_Sporocytophaga	positive	1	
+261_Nordella	251_Hyphomicrobium	negative	1	
+261_Nordella	270_unidentified Rhodospirillales	positive		1
+262_Afipia	049_Group-Te	positive	1	
+262_Afipia	108_Angustibacter	positive	1	
+262_Afipia	153_KD3-93	negative	1	
+262_Afipia	326_CandidatusUdaeobacter	negative	1	
+263_Bradyrhizobium	082_Bryobacter	positive		1
+263_Bradyrhizobium	137_Flavitalea	positive		1
+263_Bradyrhizobium	169_Herpetosiphon	positive	1	
+264_Pseudolabrys	060_unidentified Glissomonadida	positive		1
+265_Rhodopseudomonas	086_Stenotrophobacter	negative	1	
+265_Rhodopseudomonas	212_unidentified Sandaracinaceae	negative		1
+265_Rhodopseudomonas	251_Hyphomicrobium	positive	1	
+265_Rhodopseudomonas	260_unidentified Rhizobiaceae	positive	1	
+266_unidentified Xanthobacteraceae	049_Group-Te	positive	1	
+268_unidentified Magnetospiraceae	288_Variovorax	negative	1	
+269_unidentified Rhodospirillaceae	133_Aurantisolimonas	positive	1	
+270_unidentified Rhodospirillales	039_Eocercomonas	positive		1
+270_unidentified Rhodospirillales	093_unidentified Vicinamibacterales	positive	1	
+270_unidentified Rhodospirillales	299_unidentified Sutterellaceae	positive		1
+270_unidentified Rhodospirillales	313_unidentified Steroidobacteraceae	positive		1
+273_Altererythrobacter	071_Thaumatomonas	negative		1
+274_Novosphingobium	187_Paenibacillus	positive	1	1
+274_Novosphingobium	216_CandidatusAdlerbacteria	positive	1	
+274_Novosphingobium	221_TM7a	positive		1
+274_Novosphingobium	235_Brevundimonas	positive	1	
+274_Novosphingobium	276_Qipengyuania	positive	1	
+274_Novosphingobium	316_Dyella	positive		1
+275_Porphyrobacter	039_Eocercomonas	negative	1	
+275_Porphyrobacter	122_Streptomyces	positive		1
+275_Porphyrobacter	249_Devosia	positive	1	
+275_Porphyrobacter	251_Hyphomicrobium	positive		1
+275_Porphyrobacter	316_Dyella	positive	1	
+276_Qipengyuania	272_unidentified Rickettsiaceae	negative	1	
+276_Qipengyuania	278_Sphingomonas	positive	1	
+276_Qipengyuania	301_CCD24	negative	1	
+277_Sphingobium	038_Cercomonas	positive	1	
+277_Sphingobium	091_Subgroup5	negative		1
+277_Sphingobium	157_unidentified Sphingobacteriaceae	positive		1
+277_Sphingobium	190_Gemmatimonas	positive	1	
+277_Sphingobium	263_Bradyrhizobium	positive	1	
+277_Sphingobium	305_EPR3968-O8a-Bc78	negative		1
+277_Sphingobium	313_unidentified Steroidobacteraceae	negative	1	
+278_Sphingomonas	081_unidentified Acidobacteriales	negative	1	
+278_Sphingomonas	087_unidentified Blastocatellaceae	negative	1	
+278_Sphingomonas	115_unidentified Micrococcaceae	positive		1
+278_Sphingomonas	151_env.OPS17	negative	1	
+278_Sphingomonas	321_Lysobacter	positive		1
+278_Sphingomonas	327_Chthoniobacter	positive	1	
+279_unidentified Sphingomonadaceae	049_Group-Te	positive	1	
+280_unidentified Alphaproteobacteria	132_unidentified Armatimonadota	positive		1
+280_unidentified Alphaproteobacteria	151_env.OPS17	negative	1	
+281_Achromobacter	150_Dyadobacter	positive	1	
+281_Achromobacter	326_CandidatusUdaeobacter	negative		1
+282_B1-7BS	127_Gaiella	positive		1
+284_Ralstonia	285_Curvibacter	positive	1	
+286_Ramlibacter	177_Vampirovibrio	negative	1	
+286_Ramlibacter	241_unidentified Micropepsaceae	positive		1
+286_Ramlibacter	290_unidentified Methylophilaceae	positive		1
+287_unidentified Comamonadaceae	077_Abditibacterium	negative	1	
+287_unidentified Comamonadaceae	115_unidentified Micrococcaceae	positive		1
+287_unidentified Comamonadaceae	235_Brevundimonas	positive		1
+287_unidentified Comamonadaceae	296_unidentified Oxalobacteraceae	positive	1	
+289_Methylotenera	037_Rhizopus	positive		1
+289_Methylotenera	059_unidentified Sandonidae	negative		1
+289_Methylotenera	142_unidentified Cyclobacteriaceae	positive	1	
+289_Methylotenera	308_unidentified GammaproteobacteriaIncertaeSedis	positive	1	
+289_Methylotenera	315_Chujaibacter	negative	1	
+291_mle1-7	081_unidentified Acidobacteriales	positive	1	
+291_mle1-7	093_unidentified Vicinamibacterales	positive		1
+291_mle1-7	098_CL500-29marinegroup	positive		1
+291_mle1-7	196_Latescibacterota	positive		1
+291_mle1-7	251_Hyphomicrobium	positive	1	
+292_MND1	093_unidentified Vicinamibacterales	positive	1	
+292_MND1	128_unidentified Gaiellales	positive	1	
+292_MND1	173_KD4-96	positive		1
+292_MND1	225_WD2101soilgroup	positive	1	
+292_MND1	248_D05-2	negative		1
+293_Nitrosospira	038_Cercomonas	negative		1
+293_Nitrosospira	182_Bacillus	positive	1	1
+293_Nitrosospira	333_Pedosphaeraceae	positive	1	
+294_Massilia	187_Paenibacillus	positive	1	
+294_Massilia	249_Devosia	positive	1	1
+294_Massilia	276_Qipengyuania	positive	1	
+294_Massilia	284_Ralstonia	positive	1	
+295_Noviherbaspirillum	049_Group-Te	negative		1
+296_unidentified Oxalobacteraceae	111_Leifsonia	positive		1
+296_unidentified Oxalobacteraceae	127_Gaiella	negative		1
+296_unidentified Oxalobacteraceae	249_Devosia	positive		1
+296_unidentified Oxalobacteraceae	251_Hyphomicrobium	positive		1
+297_Procabacter	237_unidentified Caulobacteraceae	positive		1
+298_SC-I-84	038_Cercomonas	positive		1
+298_SC-I-84	059_unidentified Sandonidae	negative		1
+298_SC-I-84	060_unidentified Glissomonadida	positive	1	
+298_SC-I-84	192_unidentified Gemmatimonadaceae	positive	1	2
+298_SC-I-84	218_CandidatusLloydbacteria	positive	1	
+299_unidentified Sutterellaceae	013_Clonostachys	negative		1
+299_unidentified Sutterellaceae	039_Eocercomonas	positive		1
+299_unidentified Sutterellaceae	214_CandidatusUhrbacteria	positive	1	
+300_TRA3-20	129_67-14	positive	1	
+300_TRA3-20	192_unidentified Gemmatimonadaceae	positive	1	
+300_TRA3-20	270_unidentified Rhodospirillales	positive	1	
+300_TRA3-20	299_unidentified Sutterellaceae	positive	1	1
+300_TRA3-20	330_unidentified Opitutaceae	negative		1
+301_CCD24	306_Acidibacter	positive		1
+302_Coxiella	049_Group-Te	negative	1	
+304_unidentified Diplorickettsiaceae	107_Glycomyces	negative	1	
+304_unidentified Diplorickettsiaceae	165_unidentified Oligoflexales	positive	1	
+305_EPR3968-O8a-Bc78	096_IMCC26256	positive		1
+305_EPR3968-O8a-Bc78	152_FFCH9454	negative		1
+305_EPR3968-O8a-Bc78	195_Latescibacteraceae	positive		1
+308_unidentified GammaproteobacteriaIncertaeSedis	334_unidentified Pedosphaeraceae	positive	1	
+310_PLTA13	081_unidentified Acidobacteriales	positive	1	
+310_PLTA13	127_Gaiella	positive		1
+310_PLTA13	173_KD4-96	positive		1
+310_PLTA13	215_Berkelbacteria	positive	1	
+310_PLTA13	269_unidentified Rhodospirillaceae	positive	1	
+310_PLTA13	287_unidentified Comamonadaceae	negative		1
+310_PLTA13	300_TRA3-20	positive		1
+310_PLTA13	301_CCD24	positive	1	1
+311_Pseudomonas	015_Trichoderma	negative	1	
+311_Pseudomonas	017_Sarocladium	positive		1
+311_Pseudomonas	051_unidentified Allapsidae	negative	1	
+311_Pseudomonas	059_unidentified Sandonidae	positive	1	
+311_Pseudomonas	265_Rhodopseudomonas	positive		1
+311_Pseudomonas	312_unidentified Pseudomonadaceae	positive		1
+312_unidentified Pseudomonadaceae	018_Fusarium	positive		1
+312_unidentified Pseudomonadaceae	038_Cercomonas	positive	1	
+314_unidentified Gammaproteobacteria	302_Coxiella	positive	1	
+315_Chujaibacter	079_Edaphobacter	positive	1	
+315_Chujaibacter	332_Ellin517	negative		1
+316_Dyella	107_Glycomyces	positive		1
+316_Dyella	137_Flavitalea	negative	1	
+316_Dyella	320_Luteimonas	positive		1
+317_Mizugakiibacter	002_Penicillium	positive		1
+317_Mizugakiibacter	015_Trichoderma	positive		1
+317_Mizugakiibacter	176_Sericytochromatia	positive		1
+317_Mizugakiibacter	311_Pseudomonas	negative	1	
+317_Mizugakiibacter	315_Chujaibacter	positive	2	
+318_Rhodanobacter	042_Rhogostoma	negative		1
+318_Rhodanobacter	049_Group-Te	positive	1	
+318_Rhodanobacter	059_unidentified Sandonidae	positive		1
+318_Rhodanobacter	110_Agromyces	positive		1
+318_Rhodanobacter	122_Streptomyces	positive		1
+318_Rhodanobacter	234_Asticcacaulis	positive	1	
+318_Rhodanobacter	251_Hyphomicrobium	positive	1	
+318_Rhodanobacter	315_Chujaibacter	positive	1	
+318_Rhodanobacter	316_Dyella	positive	1	
+319_Arenimonas	016_Acremonium	positive		1
+320_Luteimonas	186_Cohnella	positive	1	
+320_Luteimonas	209_Pajaroellobacter	positive	1	
+321_Lysobacter	039_Eocercomonas	positive	1	
+321_Lysobacter	050_Teretomonas	negative	1	
+321_Lysobacter	060_unidentified Glissomonadida	negative	1	
+321_Lysobacter	154_Arcticibacter	positive	1	
+321_Lysobacter	156_Pedobacter	positive	1	
+321_Lysobacter	200_Myxococcus	positive	1	
+321_Lysobacter	281_Achromobacter	positive	1	
+323_SAR324clade(MarinegroupB)	067_unidentified Limnofilidae	positive		1
+323_SAR324clade(MarinegroupB)	136_Flavisolibacter	positive	1	
+324_Sumerlaea	165_unidentified Oligoflexales	positive		1
+324_Sumerlaea	182_Bacillus	positive		1
+324_Sumerlaea	280_unidentified Alphaproteobacteria	negative		1
+325_cvE6	256_Ensifer	negative	1	
+329_Opitutus	137_Flavitalea	positive		1
+329_Opitutus	141_unidentified Chitinophagales	positive	1	
+330_unidentified Opitutaceae	190_Gemmatimonas	positive	1	
+333_Pedosphaeraceae	078_Acidipila	negative		1
+333_Pedosphaeraceae	081_unidentified Acidobacteriales	positive	1	
+333_Pedosphaeraceae	133_Aurantisolimonas	positive	1	
+333_Pedosphaeraceae	183_Fictibacillus	positive		1
+333_Pedosphaeraceae	240_unidentified Micavibrionales	positive	1	
+333_Pedosphaeraceae	338_Locationcr1_tip	negative		1
+334_unidentified Pedosphaeraceae	260_unidentified Rhizobiaceae	positive		1
+334_unidentified Pedosphaeraceae	340_Locationcr2_tip	negative		1
+335_Luteolibacter	187_Paenibacillus	positive	1	
+335_Luteolibacter	254_Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium	positive	1	
+336_AT_rhizo	233_CandidatusNucleicultrix	negative		1
+336_AT_rhizo	285_Curvibacter	positive	1	
+336_AT_rhizo	315_Chujaibacter	negative	1	
+336_AT_rhizo	339_Locationcr2_base	positive	1	
+342_Locationprim_base	156_Pedobacter	negative	1	
+342_Locationprim_base	332_Ellin517	negative	1	

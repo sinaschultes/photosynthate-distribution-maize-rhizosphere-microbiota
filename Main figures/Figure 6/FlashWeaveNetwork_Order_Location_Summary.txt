@@ -1,0 +1,608 @@
+Node1	Node2	Association	weight_base	weight_tip
+002_Eurotiales	008_Hypocreales	positive		1
+002_Eurotiales	093_Longimicrobiales	positive		1
+003_Onygenales	080_S085	positive		1
+003_Onygenales	124_Rhizobiales	negative		2
+004_Helotiales	090_Paenibacillales	positive		1
+005_Thelebolales	008_Hypocreales	positive		1
+005_Thelebolales	111_Saccharimonadales	positive		1
+006_unidentified Leotiomycetes	020_Cercomonadida	positive	1	
+006_unidentified Leotiomycetes	066_Chitinophagales	positive	1	
+007_Pezizales	124_Rhizobiales	negative		1
+008_Hypocreales	008_Hypocreales	positive		3
+008_Hypocreales	015_Lobulomycetales	positive	1	
+008_Hypocreales	055_Micrococcales	positive		1
+008_Hypocreales	090_Paenibacillales	positive	1	
+008_Hypocreales	099_Myxococcales	positive		1
+008_Hypocreales	103_Polyangiales	positive	1	
+008_Hypocreales	124_Rhizobiales	positive		1
+008_Hypocreales	138_Pseudomonadales	negative	1	
+008_Hypocreales	138_Pseudomonadales	positive		3
+008_Hypocreales	155_Locationcr3_tip	positive		1
+009_Sordariales	003_Onygenales	positive		1
+009_Sordariales	004_Helotiales	negative		1
+009_Sordariales	008_Hypocreales	negative		1
+009_Sordariales	008_Hypocreales	positive		1
+009_Sordariales	022_Cryptofilida	negative		1
+009_Sordariales	024_Glissomonadida	negative		1
+009_Sordariales	024_Glissomonadida	positive		1
+009_Sordariales	044_Subgroup5	positive		1
+010_unidentified Sordariomycetes	003_Onygenales	positive		1
+010_unidentified Sordariomycetes	089_Bacillales	positive		1
+012_unidentified Ascomycota	020_Cercomonadida	positive		1
+014_Sporidiobolales	024_Glissomonadida	positive		1
+014_Sporidiobolales	028_Limnofilida	positive		1
+014_Sporidiobolales	032_Tremulida	negative		1
+014_Sporidiobolales	111_Saccharimonadales	positive		1
+015_Lobulomycetales	055_Micrococcales	positive	1	
+017_Spizellomycetales	003_Onygenales	positive		1
+017_Spizellomycetales	008_Hypocreales	negative		1
+017_Spizellomycetales	051_Corynebacteriales	negative		1
+017_Spizellomycetales	058_Streptomycetales	negative		1
+018_unidentified Chytridiomycota	111_Saccharimonadales	negative		1
+018_unidentified Chytridiomycota	134_EPR3968-O8a-Bc78	positive		1
+020_Cercomonadida	001_Pleosporales	positive		1
+020_Cercomonadida	003_Onygenales	positive		1
+020_Cercomonadida	013_Malasseziales	negative		1
+020_Cercomonadida	020_Cercomonadida	negative	3	2
+020_Cercomonadida	020_Cercomonadida	positive	12	10
+020_Cercomonadida	022_Cryptofilida	negative		1
+020_Cercomonadida	022_Cryptofilida	positive		1
+020_Cercomonadida	023_Euglyphida	positive		2
+020_Cercomonadida	024_Glissomonadida	negative	2	4
+020_Cercomonadida	024_Glissomonadida	positive	7	12
+020_Cercomonadida	025_Granofilosea	positive	1	
+020_Cercomonadida	028_Limnofilida	positive		3
+020_Cercomonadida	029_Spongomonadida	positive	1	
+020_Cercomonadida	048_IMCC26256	positive		1
+020_Cercomonadida	049_Microtrichales	negative		1
+020_Cercomonadida	055_Micrococcales	negative	1	
+020_Cercomonadida	055_Micrococcales	positive	1	
+020_Cercomonadida	061_Gaiellales	negative		1
+020_Cercomonadida	067_Cytophagales	positive	2	2
+020_Cercomonadida	068_Sphingobacteriales	positive	1	
+020_Cercomonadida	081_KD4-96	positive	1	
+020_Cercomonadida	084_Sericytochromatia	negative		1
+020_Cercomonadida	084_Sericytochromatia	positive	1	
+020_Cercomonadida	086_Babeliales	positive	1	
+020_Cercomonadida	089_Bacillales	positive		1
+020_Cercomonadida	090_Paenibacillales	positive	1	
+020_Cercomonadida	099_Myxococcales	positive		1
+020_Cercomonadida	111_Saccharimonadales	negative		1
+020_Cercomonadida	111_Saccharimonadales	positive		1
+020_Cercomonadida	113_Pirellulales	negative	1	
+020_Cercomonadida	124_Rhizobiales	positive	1	
+020_Cercomonadida	126_Rhodospirillales	positive		1
+020_Cercomonadida	128_Sphingomonadales	negative	1	
+020_Cercomonadida	128_Sphingomonadales	positive	1	
+020_Cercomonadida	138_Pseudomonadales	positive	1	
+020_Cercomonadida	143_SAR324clade(MarinegroupB)	positive	1	
+020_Cercomonadida	153_Locationcr2_base	positive	1	
+021_Cryomonadida	024_Glissomonadida	negative		1
+021_Cryomonadida	024_Glissomonadida	positive	1	
+021_Cryomonadida	103_Polyangiales	positive	1	
+022_Cryptofilida	008_Hypocreales	negative		1
+022_Cryptofilida	111_Saccharimonadales	positive	1	
+023_Euglyphida	019_Mucorales	positive		1
+023_Euglyphida	028_Limnofilida	positive	1	
+023_Euglyphida	124_Rhizobiales	positive	1	
+024_Glissomonadida	001_Pleosporales	negative		1
+024_Glissomonadida	003_Onygenales	negative		1
+024_Glissomonadida	003_Onygenales	positive		1
+024_Glissomonadida	004_Helotiales	positive	1	
+024_Glissomonadida	007_Pezizales	positive	1	
+024_Glissomonadida	008_Hypocreales	negative	1	1
+024_Glissomonadida	008_Hypocreales	positive	1	2
+024_Glissomonadida	015_Lobulomycetales	positive		1
+024_Glissomonadida	019_Mucorales	positive		1
+024_Glissomonadida	024_Glissomonadida	negative	7	12
+024_Glissomonadida	024_Glissomonadida	positive	34	21
+024_Glissomonadida	026_Imbricatea	negative		1
+024_Glissomonadida	027_Krakenida	positive	1	
+024_Glissomonadida	028_Limnofilida	negative	1	1
+024_Glissomonadida	028_Limnofilida	positive	12	3
+024_Glissomonadida	053_Glycomycetales	positive		1
+024_Glissomonadida	055_Micrococcales	negative	1	
+024_Glissomonadida	055_Micrococcales	positive	1	1
+024_Glissomonadida	056_Propionibacteriales	positive		1
+024_Glissomonadida	073_Oligoflexales	positive	2	
+024_Glissomonadida	084_Sericytochromatia	positive		1
+024_Glissomonadida	090_Paenibacillales	positive	1	1
+024_Glissomonadida	095_Latescibacterales	negative		1
+024_Glissomonadida	099_Myxococcales	positive	1	1
+024_Glissomonadida	100_Haliangiales	negative		1
+024_Glissomonadida	110_Parcubacteria	negative	1	
+024_Glissomonadida	111_Saccharimonadales	positive	2	1
+024_Glissomonadida	113_Pirellulales	negative	1	
+024_Glissomonadida	115_Azospirillales	negative		1
+024_Glissomonadida	115_Azospirillales	positive	1	2
+024_Glissomonadida	121_Micropepsales	negative		2
+024_Glissomonadida	122_Paracaedibacterales	negative	1	1
+024_Glissomonadida	124_Rhizobiales	negative	4	
+024_Glissomonadida	124_Rhizobiales	positive	6	1
+024_Glissomonadida	125_Rhodobacterales	positive		1
+024_Glissomonadida	128_Sphingomonadales	positive	1	
+024_Glissomonadida	138_Pseudomonadales	negative	1	
+024_Glissomonadida	138_Pseudomonadales	positive	1	1
+024_Glissomonadida	150_AT_rhizo	negative	1	
+024_Glissomonadida	151_Locationcr1_base	positive	1	
+024_Glissomonadida	154_Locationcr2_tip	negative		1
+024_Glissomonadida	155_Locationcr3_tip	positive		1
+024_Glissomonadida	157_Locationprim_tip	positive		1
+025_Granofilosea	073_Oligoflexales	positive		1
+025_Granofilosea	124_Rhizobiales	negative		1
+027_Krakenida	153_Locationcr2_base	negative	1	
+028_Limnofilida	013_Malasseziales	negative		1
+028_Limnofilida	028_Limnofilida	negative	1	
+028_Limnofilida	028_Limnofilida	positive	5	
+028_Limnofilida	055_Micrococcales	negative	1	
+028_Limnofilida	115_Azospirillales	positive	1	
+028_Limnofilida	143_SAR324clade(MarinegroupB)	positive		1
+030_Thaumatomonadida	024_Glissomonadida	positive	1	
+030_Thaumatomonadida	025_Granofilosea	positive	1	
+030_Thaumatomonadida	055_Micrococcales	negative		1
+030_Thaumatomonadida	055_Micrococcales	positive		1
+030_Thaumatomonadida	110_Parcubacteria	positive	1	
+031_Thecofilosea	020_Cercomonadida	positive		1
+031_Thecofilosea	024_Glissomonadida	negative		1
+032_Tremulida	024_Glissomonadida	positive	2	1
+032_Tremulida	081_KD4-96	positive	1	
+033_unidentified Cercozoa	020_Cercomonadida	negative	1	
+033_unidentified Cercozoa	024_Glissomonadida	negative	2	
+033_unidentified Cercozoa	028_Limnofilida	negative		1
+033_unidentified Cercozoa	033_unidentified Cercozoa	positive		1
+033_unidentified Cercozoa	066_Chitinophagales	positive	1	
+034_Vampyrellida	017_Spizellomycetales	positive	1	
+035_Abditibacteriales	055_Micrococcales	negative	1	
+035_Abditibacteriales	061_Gaiellales	positive	1	
+035_Abditibacteriales	093_Longimicrobiales	negative	1	
+036_Acidobacteriales	067_Cytophagales	negative		1
+036_Acidobacteriales	068_Sphingobacteriales	negative	1	
+036_Acidobacteriales	099_Myxococcales	negative	1	
+036_Acidobacteriales	124_Rhizobiales	negative	1	
+036_Acidobacteriales	124_Rhizobiales	positive		3
+036_Acidobacteriales	128_Sphingomonadales	negative	1	
+036_Acidobacteriales	135_GammaproteobacteriaIncertaeSedis	positive		1
+036_Acidobacteriales	137_PLTA13	positive	1	
+036_Acidobacteriales	148_Pedosphaerales	negative		1
+036_Acidobacteriales	148_Pedosphaerales	positive	1	
+037_Bryobacterales	002_Eurotiales	positive		1
+037_Bryobacterales	066_Chitinophagales	positive		1
+037_Bryobacterales	092_Gemmatimonadales	positive	1	
+037_Bryobacterales	103_Polyangiales	negative	1	
+037_Bryobacterales	104_Nitrospirales	positive		1
+037_Bryobacterales	124_Rhizobiales	positive		1
+038_Solibacterales	016_Rhizophlyctidales	positive		1
+038_Solibacterales	121_Micropepsales	positive		1
+039_Subgroup2	134_EPR3968-O8a-Bc78	positive		1
+039_Subgroup2	136_KI89Aclade	positive		1
+040_Blastocatellales	008_Hypocreales	positive	1	
+040_Blastocatellales	020_Cercomonadida	positive		1
+040_Blastocatellales	024_Glissomonadida	negative		1
+040_Blastocatellales	043_Subgroup25	positive		1
+040_Blastocatellales	067_Cytophagales	positive	1	
+040_Blastocatellales	073_Oligoflexales	positive		1
+040_Blastocatellales	076_SBR1031	positive	1	
+040_Blastocatellales	089_Bacillales	positive	2	
+040_Blastocatellales	096_Latescibacterota	positive		1
+040_Blastocatellales	120_Micavibrionales	positive	1	
+040_Blastocatellales	124_Rhizobiales	negative	1	
+040_Blastocatellales	128_Sphingomonadales	negative	1	
+041_Pyrinomonadales	068_Sphingobacteriales	positive	1	
+041_Pyrinomonadales	124_Rhizobiales	negative	1	
+041_Pyrinomonadales	128_Sphingomonadales	negative	1	
+042_Subgroup7	011_Xylariales	positive		1
+042_Subgroup7	049_Microtrichales	positive		1
+042_Subgroup7	068_Sphingobacteriales	positive	1	
+042_Subgroup7	090_Paenibacillales	negative		1
+042_Subgroup7	100_Haliangiales	positive	1	
+043_Subgroup25	104_Nitrospirales	positive		1
+044_Subgroup5	023_Euglyphida	positive	1	
+044_Subgroup5	038_Solibacterales	positive	1	
+044_Subgroup5	098_bacteriap25	positive		1
+044_Subgroup5	100_Haliangiales	positive	1	
+044_Subgroup5	118_Dongiales	positive		1
+044_Subgroup5	124_Rhizobiales	positive	1	
+044_Subgroup5	130_Burkholderiales	positive	1	
+046_Vicinamibacterales	008_Hypocreales	negative		1
+046_Vicinamibacterales	008_Hypocreales	positive	1	
+046_Vicinamibacterales	024_Glissomonadida	negative	1	
+046_Vicinamibacterales	024_Glissomonadida	positive	1	
+046_Vicinamibacterales	035_Abditibacteriales	positive	1	
+046_Vicinamibacterales	046_Vicinamibacterales	positive	1	
+046_Vicinamibacterales	061_Gaiellales	positive		1
+046_Vicinamibacterales	090_Paenibacillales	negative		1
+046_Vicinamibacterales	092_Gemmatimonadales	positive		1
+046_Vicinamibacterales	104_Nitrospirales	positive		1
+046_Vicinamibacterales	107_CandidatusAdlerbacteria	negative	1	
+046_Vicinamibacterales	124_Rhizobiales	positive		2
+046_Vicinamibacterales	126_Rhodospirillales	positive	1	
+046_Vicinamibacterales	130_Burkholderiales	positive	1	
+046_Vicinamibacterales	131_CCD24	positive	1	1
+047_Actinomarinales	081_KD4-96	positive		1
+047_Actinomarinales	124_Rhizobiales	positive		1
+048_IMCC26256	102_Nannocystales	positive		1
+050_Catenulisporales	020_Cercomonadida	negative	1	
+051_Corynebacteriales	024_Glissomonadida	positive		2
+052_Frankiales	017_Spizellomycetales	positive	1	
+052_Frankiales	061_Gaiellales	positive	1	
+054_Kineosporiales	099_Myxococcales	positive		1
+054_Kineosporiales	124_Rhizobiales	positive	1	
+054_Kineosporiales	148_Pedosphaerales	negative	1	
+055_Micrococcales	055_Micrococcales	positive	1	1
+055_Micrococcales	089_Bacillales	positive		1
+055_Micrococcales	090_Paenibacillales	positive	2	1
+055_Micrococcales	099_Myxococcales	positive		1
+055_Micrococcales	104_Nitrospirales	negative	1	
+055_Micrococcales	110_Parcubacteria	negative		1
+055_Micrococcales	124_Rhizobiales	positive	2	1
+056_Propionibacteriales	094_S0134terrestrialgroup	positive	1	
+056_Propionibacteriales	124_Rhizobiales	positive	1	
+056_Propionibacteriales	128_Sphingomonadales	positive	1	
+058_Streptomycetales	020_Cercomonadida	negative	1	
+058_Streptomycetales	085_Vampirovibrionales	positive	1	
+058_Streptomycetales	124_Rhizobiales	positive	1	1
+058_Streptomycetales	130_Burkholderiales	positive	1	
+058_Streptomycetales	141_Xanthomonadales	positive		2
+058_Streptomycetales	148_Pedosphaerales	positive	1	
+059_Streptosporangiales	024_Glissomonadida	positive	1	
+059_Streptosporangiales	048_IMCC26256	positive		1
+059_Streptosporangiales	056_Propionibacteriales	positive	1	
+059_Streptosporangiales	115_Azospirillales	positive	1	
+060_MB-A2-108	101_mle1-27	negative	1	
+061_Gaiellales	060_MB-A2-108	positive	1	1
+061_Gaiellales	061_Gaiellales	positive		2
+061_Gaiellales	094_S0134terrestrialgroup	positive	1	
+061_Gaiellales	124_Rhizobiales	positive	1	
+061_Gaiellales	137_PLTA13	positive		1
+062_Solirubrobacterales	097_Rokubacteriales	positive		1
+062_Solirubrobacterales	126_Rhodospirillales	positive		1
+062_Solirubrobacterales	130_Burkholderiales	negative		1
+062_Solirubrobacterales	130_Burkholderiales	positive		1
+064_Fimbriimonadales	024_Glissomonadida	positive	1	
+065_unidentified Armatimonadota	015_Lobulomycetales	positive	1	
+065_unidentified Armatimonadota	020_Cercomonadida	positive		1
+065_unidentified Armatimonadota	124_Rhizobiales	positive	1	
+066_Chitinophagales	025_Granofilosea	positive	1	
+066_Chitinophagales	038_Solibacterales	positive	1	
+066_Chitinophagales	057_Pseudonocardiales	negative		1
+066_Chitinophagales	066_Chitinophagales	positive	4	1
+066_Chitinophagales	067_Cytophagales	positive	3	1
+066_Chitinophagales	068_Sphingobacteriales	positive	2	
+066_Chitinophagales	069_Kapabacteriales	positive	1	
+066_Chitinophagales	073_Oligoflexales	positive	1	
+066_Chitinophagales	089_Bacillales	positive	1	1
+066_Chitinophagales	096_Latescibacterota	negative		1
+066_Chitinophagales	104_Nitrospirales	positive	1	
+066_Chitinophagales	111_Saccharimonadales	positive		1
+066_Chitinophagales	113_Pirellulales	positive	1	
+066_Chitinophagales	124_Rhizobiales	positive		1
+066_Chitinophagales	126_Rhodospirillales	positive	1	
+066_Chitinophagales	143_SAR324clade(MarinegroupB)	positive	1	
+066_Chitinophagales	145_Chlamydiales	positive		1
+066_Chitinophagales	147_Opitutales	positive	1	1
+066_Chitinophagales	148_Pedosphaerales	positive	1	
+067_Cytophagales	015_Lobulomycetales	negative		1
+067_Cytophagales	024_Glissomonadida	negative	1	
+067_Cytophagales	024_Glissomonadida	positive	1	1
+067_Cytophagales	067_Cytophagales	positive	1	
+067_Cytophagales	068_Sphingobacteriales	positive	1	
+067_Cytophagales	069_Kapabacteriales	positive		1
+067_Cytophagales	073_Oligoflexales	positive	2	
+067_Cytophagales	076_SBR1031	positive	1	
+067_Cytophagales	086_Babeliales	negative	1	
+067_Cytophagales	089_Bacillales	positive	1	
+067_Cytophagales	092_Gemmatimonadales	negative	2	
+067_Cytophagales	111_Saccharimonadales	positive		1
+067_Cytophagales	124_Rhizobiales	negative	1	
+067_Cytophagales	124_Rhizobiales	positive	1	
+067_Cytophagales	127_Rickettsiales	positive	1	
+067_Cytophagales	135_GammaproteobacteriaIncertaeSedis	positive	1	
+067_Cytophagales	148_Pedosphaerales	positive	1	
+067_Cytophagales	155_Locationcr3_tip	negative		1
+068_Sphingobacteriales	008_Hypocreales	positive		1
+068_Sphingobacteriales	024_Glissomonadida	negative		1
+068_Sphingobacteriales	028_Limnofilida	positive		2
+068_Sphingobacteriales	045_Thermoanaerobaculales	negative		1
+068_Sphingobacteriales	052_Frankiales	negative		2
+068_Sphingobacteriales	056_Propionibacteriales	negative		1
+068_Sphingobacteriales	066_Chitinophagales	negative		1
+068_Sphingobacteriales	066_Chitinophagales	positive		1
+068_Sphingobacteriales	067_Cytophagales	positive		3
+068_Sphingobacteriales	068_Sphingobacteriales	positive		3
+068_Sphingobacteriales	070_Bacteriovoracales	positive		1
+068_Sphingobacteriales	085_Vampirovibrionales	positive		1
+068_Sphingobacteriales	090_Paenibacillales	positive		2
+068_Sphingobacteriales	099_Myxococcales	positive		1
+068_Sphingobacteriales	116_Caedibacterales	positive		1
+068_Sphingobacteriales	120_Micavibrionales	positive		1
+068_Sphingobacteriales	128_Sphingomonadales	negative	1	
+068_Sphingobacteriales	128_Sphingomonadales	positive		1
+068_Sphingobacteriales	134_EPR3968-O8a-Bc78	negative		1
+068_Sphingobacteriales	146_Chthoniobacterales	positive		1
+070_Bacteriovoracales	008_Hypocreales	positive	1	
+070_Bacteriovoracales	102_Nannocystales	positive	1	
+070_Bacteriovoracales	103_Polyangiales	positive	1	
+070_Bacteriovoracales	146_Chthoniobacterales	positive	1	
+071_Bdellovibrionales	023_Euglyphida	positive		1
+071_Bdellovibrionales	028_Limnofilida	positive	1	
+071_Bdellovibrionales	040_Blastocatellales	positive	1	
+071_Bdellovibrionales	050_Catenulisporales	negative	1	
+071_Bdellovibrionales	052_Frankiales	positive		1
+071_Bdellovibrionales	061_Gaiellales	negative		1
+071_Bdellovibrionales	067_Cytophagales	positive	1	
+071_Bdellovibrionales	068_Sphingobacteriales	positive		1
+071_Bdellovibrionales	105_CandidatusUhrbacteria	positive		1
+071_Bdellovibrionales	110_Parcubacteria	positive	1	
+071_Bdellovibrionales	122_Paracaedibacterales	positive	1	
+071_Bdellovibrionales	124_Rhizobiales	positive	1	
+071_Bdellovibrionales	130_Burkholderiales	positive	1	
+071_Bdellovibrionales	146_Chthoniobacterales	positive	1	
+071_Bdellovibrionales	148_Pedosphaerales	positive		1
+072_0319-6G20	004_Helotiales	positive		1
+072_0319-6G20	008_Hypocreales	negative		1
+072_0319-6G20	040_Blastocatellales	positive		1
+072_0319-6G20	058_Streptomycetales	positive	1	
+072_0319-6G20	098_bacteriap25	positive		1
+073_Oligoflexales	038_Solibacterales	positive	1	
+074_Silvanigrellales	039_Subgroup2	positive		1
+075_Caldilineales	073_Oligoflexales	positive		1
+077_Chloroflexales	124_Rhizobiales	positive	1	
+078_Kallotenuales	096_Latescibacterota	positive		1
+079_Thermomicrobiales	051_Corynebacteriales	positive		1
+079_Thermomicrobiales	052_Frankiales	positive		1
+079_Thermomicrobiales	066_Chitinophagales	negative		2
+081_KD4-96	137_PLTA13	positive		1
+082_C0119	061_Gaiellales	positive	1	
+082_C0119	113_Pirellulales	positive		1
+083_TK10	061_Gaiellales	positive	2	
+083_TK10	111_Saccharimonadales	negative	1	
+083_TK10	117_Caulobacterales	negative		1
+083_TK10	130_Burkholderiales	positive	1	1
+083_TK10	131_CCD24	positive	1	
+085_Vampirovibrionales	028_Limnofilida	negative	1	
+085_Vampirovibrionales	036_Acidobacteriales	positive	1	
+085_Vampirovibrionales	087_Fibrobacterales	positive	1	1
+085_Vampirovibrionales	130_Burkholderiales	negative	1	
+087_Fibrobacterales	095_Latescibacterales	negative		1
+088_Alicyclobacillales	113_Pirellulales	positive		1
+089_Bacillales	038_Solibacterales	positive	1	
+089_Bacillales	073_Oligoflexales	positive		1
+089_Bacillales	080_S085	positive		1
+089_Bacillales	148_Pedosphaerales	positive		1
+090_Paenibacillales	068_Sphingobacteriales	positive	1	
+090_Paenibacillales	090_Paenibacillales	positive		1
+090_Paenibacillales	110_Parcubacteria	negative		1
+090_Paenibacillales	113_Pirellulales	negative		1
+090_Paenibacillales	124_Rhizobiales	positive	1	
+090_Paenibacillales	126_Rhodospirillales	negative	1	
+090_Paenibacillales	128_Sphingomonadales	positive	1	
+091_Lachnospirales	089_Bacillales	positive		1
+092_Gemmatimonadales	024_Glissomonadida	positive	1	
+092_Gemmatimonadales	115_Azospirillales	positive	1	
+092_Gemmatimonadales	123_Reyranellales	positive	1	
+092_Gemmatimonadales	128_Sphingomonadales	positive	1	
+092_Gemmatimonadales	147_Opitutales	positive	1	
+093_Longimicrobiales	099_Myxococcales	positive		1
+093_Longimicrobiales	124_Rhizobiales	positive	1	
+095_Latescibacterales	089_Bacillales	positive		1
+096_Latescibacterota	028_Limnofilida	positive		1
+096_Latescibacterota	057_Pseudonocardiales	positive	1	
+096_Latescibacterota	062_Solirubrobacterales	positive	1	
+096_Latescibacterota	124_Rhizobiales	positive	1	1
+097_Rokubacteriales	094_S0134terrestrialgroup	positive		1
+098_bacteriap25	024_Glissomonadida	negative	1	
+098_bacteriap25	073_Oligoflexales	positive	1	
+098_bacteriap25	124_Rhizobiales	positive		2
+099_Myxococcales	016_Rhizophlyctidales	negative		1
+099_Myxococcales	090_Paenibacillales	positive	1	
+099_Myxococcales	124_Rhizobiales	positive		2
+099_Myxococcales	147_Opitutales	positive	1	
+100_Haliangiales	081_KD4-96	positive		1
+100_Haliangiales	124_Rhizobiales	negative	1	
+100_Haliangiales	124_Rhizobiales	positive	1	
+102_Nannocystales	080_S085	positive		1
+102_Nannocystales	103_Polyangiales	positive	1	
+103_Polyangiales	103_Polyangiales	positive	1	
+103_Polyangiales	124_Rhizobiales	negative		1
+106_Berkelbacteria	089_Bacillales	positive	1	
+106_Berkelbacteria	137_PLTA13	positive	1	
+107_CandidatusAdlerbacteria	128_Sphingomonadales	positive	1	
+108_CandidatusAzambacteria	067_Cytophagales	positive	1	
+108_CandidatusAzambacteria	124_Rhizobiales	negative	1	
+109_CandidatusLloydbacteria	008_Hypocreales	negative	1	
+109_CandidatusLloydbacteria	020_Cercomonadida	positive	1	
+109_CandidatusLloydbacteria	066_Chitinophagales	positive		1
+109_CandidatusLloydbacteria	146_Chthoniobacterales	positive	1	
+111_Saccharimonadales	068_Sphingobacteriales	positive	2	
+112_Tepidisphaerales	008_Hypocreales	positive		1
+112_Tepidisphaerales	048_IMCC26256	positive		1
+112_Tepidisphaerales	060_MB-A2-108	positive		1
+112_Tepidisphaerales	079_Thermomicrobiales	positive		1
+112_Tepidisphaerales	103_Polyangiales	negative	1	
+112_Tepidisphaerales	130_Burkholderiales	positive	1	
+112_Tepidisphaerales	141_Xanthomonadales	negative		1
+113_Pirellulales	068_Sphingobacteriales	negative	1	
+114_Acetobacterales	036_Acidobacteriales	positive	1	
+114_Acetobacterales	067_Cytophagales	negative	1	
+114_Acetobacterales	146_Chthoniobacterales	positive	1	
+115_Azospirillales	003_Onygenales	negative		1
+115_Azospirillales	115_Azospirillales	negative	1	
+115_Azospirillales	124_Rhizobiales	positive	1	
+116_Caedibacterales	051_Corynebacteriales	negative		1
+116_Caedibacterales	124_Rhizobiales	negative	1	
+116_Caedibacterales	150_AT_rhizo	negative		1
+117_Caulobacterales	020_Cercomonadida	negative	1	
+117_Caulobacterales	020_Cercomonadida	positive	1	
+117_Caulobacterales	024_Glissomonadida	positive	1	
+117_Caulobacterales	028_Limnofilida	negative	1	
+117_Caulobacterales	066_Chitinophagales	negative		1
+117_Caulobacterales	067_Cytophagales	negative		1
+117_Caulobacterales	067_Cytophagales	positive	1	
+117_Caulobacterales	068_Sphingobacteriales	positive	1	
+117_Caulobacterales	090_Paenibacillales	positive	1	
+117_Caulobacterales	092_Gemmatimonadales	negative		1
+117_Caulobacterales	096_Latescibacterota	negative		1
+117_Caulobacterales	111_Saccharimonadales	positive	1	
+117_Caulobacterales	124_Rhizobiales	positive		1
+117_Caulobacterales	128_Sphingomonadales	positive	1	
+118_Dongiales	124_Rhizobiales	positive		1
+119_Elsterales	048_IMCC26256	positive		1
+119_Elsterales	060_MB-A2-108	positive		1
+119_Elsterales	080_S085	positive		1
+119_Elsterales	103_Polyangiales	positive	1	
+119_Elsterales	147_Opitutales	negative		1
+120_Micavibrionales	110_Parcubacteria	positive	1	
+120_Micavibrionales	148_Pedosphaerales	positive	1	
+121_Micropepsales	110_Parcubacteria	positive		1
+121_Micropepsales	122_Paracaedibacterales	positive		1
+122_Paracaedibacterales	056_Propionibacteriales	negative		1
+122_Paracaedibacterales	062_Solirubrobacterales	negative	1	
+123_Reyranellales	124_Rhizobiales	positive		1
+124_Rhizobiales	068_Sphingobacteriales	negative	1	
+124_Rhizobiales	089_Bacillales	negative	1	
+124_Rhizobiales	089_Bacillales	positive	1	
+124_Rhizobiales	097_Rokubacteriales	positive		1
+124_Rhizobiales	124_Rhizobiales	negative	1	
+124_Rhizobiales	124_Rhizobiales	positive	4	
+124_Rhizobiales	126_Rhodospirillales	positive	2	2
+124_Rhizobiales	128_Sphingomonadales	positive	3	
+127_Rickettsiales	128_Sphingomonadales	negative	1	
+128_Sphingomonadales	030_Thaumatomonadida	negative		1
+128_Sphingomonadales	044_Subgroup5	negative		1
+128_Sphingomonadales	055_Micrococcales	positive		1
+128_Sphingomonadales	056_Propionibacteriales	positive		1
+128_Sphingomonadales	058_Streptomycetales	positive		1
+128_Sphingomonadales	066_Chitinophagales	positive		1
+128_Sphingomonadales	090_Paenibacillales	positive		1
+128_Sphingomonadales	111_Saccharimonadales	positive		1
+128_Sphingomonadales	124_Rhizobiales	positive		2
+128_Sphingomonadales	128_Sphingomonadales	positive	2	
+128_Sphingomonadales	134_EPR3968-O8a-Bc78	negative		1
+128_Sphingomonadales	139_Steroidobacterales	negative	1	
+128_Sphingomonadales	141_Xanthomonadales	positive		2
+129_unidentified Alphaproteobacteria	065_unidentified Armatimonadota	positive		1
+129_unidentified Alphaproteobacteria	068_Sphingobacteriales	negative	1	
+130_Burkholderiales	008_Hypocreales	negative		1
+130_Burkholderiales	019_Mucorales	positive		1
+130_Burkholderiales	020_Cercomonadida	negative		1
+130_Burkholderiales	020_Cercomonadida	positive		2
+130_Burkholderiales	022_Cryptofilida	negative	1	
+130_Burkholderiales	024_Glissomonadida	negative		4
+130_Burkholderiales	024_Glissomonadida	positive	1	
+130_Burkholderiales	035_Abditibacteriales	negative	1	
+130_Burkholderiales	036_Acidobacteriales	positive	1	
+130_Burkholderiales	041_Pyrinomonadales	positive		1
+130_Burkholderiales	046_Vicinamibacterales	positive		1
+130_Burkholderiales	049_Microtrichales	positive		1
+130_Burkholderiales	054_Kineosporiales	positive	1	
+130_Burkholderiales	055_Micrococcales	positive		2
+130_Burkholderiales	056_Propionibacteriales	positive	1	1
+130_Burkholderiales	061_Gaiellales	negative		2
+130_Burkholderiales	061_Gaiellales	positive	1	1
+130_Burkholderiales	062_Solirubrobacterales	positive	1	
+130_Burkholderiales	067_Cytophagales	positive	3	
+130_Burkholderiales	081_KD4-96	positive		1
+130_Burkholderiales	089_Bacillales	positive	1	1
+130_Burkholderiales	090_Paenibacillales	positive	3	
+130_Burkholderiales	092_Gemmatimonadales	positive	2	2
+130_Burkholderiales	096_Latescibacterota	positive		1
+130_Burkholderiales	098_bacteriap25	positive		1
+130_Burkholderiales	105_CandidatusUhrbacteria	positive	1	
+130_Burkholderiales	109_CandidatusLloydbacteria	positive	1	
+130_Burkholderiales	110_Parcubacteria	negative	1	
+130_Burkholderiales	117_Caulobacterales	positive		2
+130_Burkholderiales	119_Elsterales	positive		1
+130_Burkholderiales	121_Micropepsales	positive		1
+130_Burkholderiales	124_Rhizobiales	negative		1
+130_Burkholderiales	124_Rhizobiales	positive	2	3
+130_Burkholderiales	126_Rhodospirillales	negative	1	
+130_Burkholderiales	126_Rhodospirillales	positive	1	1
+130_Burkholderiales	128_Sphingomonadales	positive	1	
+130_Burkholderiales	130_Burkholderiales	positive	4	2
+130_Burkholderiales	135_GammaproteobacteriaIncertaeSedis	positive	1	
+130_Burkholderiales	137_PLTA13	negative		1
+130_Burkholderiales	137_PLTA13	positive		1
+130_Burkholderiales	146_Chthoniobacterales	negative		1
+130_Burkholderiales	147_Opitutales	negative		1
+130_Burkholderiales	148_Pedosphaerales	positive	1	
+130_Burkholderiales	150_AT_rhizo	positive	1	
+131_CCD24	128_Sphingomonadales	negative	1	
+131_CCD24	135_GammaproteobacteriaIncertaeSedis	positive		1
+131_CCD24	137_PLTA13	positive	1	1
+132_Coxiellales	024_Glissomonadida	negative	1	
+132_Coxiellales	067_Cytophagales	positive	1	
+133_Diplorickettsiales	053_Glycomycetales	negative	1	
+133_Diplorickettsiales	073_Oligoflexales	positive	2	
+134_EPR3968-O8a-Bc78	048_IMCC26256	positive		1
+134_EPR3968-O8a-Bc78	095_Latescibacterales	positive		1
+135_GammaproteobacteriaIncertaeSedis	056_Propionibacteriales	negative	1	
+135_GammaproteobacteriaIncertaeSedis	090_Paenibacillales	negative	1	
+135_GammaproteobacteriaIncertaeSedis	148_Pedosphaerales	positive	1	
+136_KI89Aclade	089_Bacillales	positive		1
+137_PLTA13	126_Rhodospirillales	positive	1	
+138_Pseudomonadales	124_Rhizobiales	positive		1
+138_Pseudomonadales	138_Pseudomonadales	positive		1
+139_Steroidobacterales	094_S0134terrestrialgroup	positive		1
+139_Steroidobacterales	126_Rhodospirillales	positive		1
+140_unidentified Gammaproteobacteria	119_Elsterales	negative	1	
+140_unidentified Gammaproteobacteria	132_Coxiellales	positive	1	
+141_Xanthomonadales	002_Eurotiales	positive		1
+141_Xanthomonadales	008_Hypocreales	positive		2
+141_Xanthomonadales	020_Cercomonadida	positive	1	
+141_Xanthomonadales	021_Cryomonadida	negative		1
+141_Xanthomonadales	024_Glissomonadida	negative	2	
+141_Xanthomonadales	024_Glissomonadida	positive	1	2
+141_Xanthomonadales	036_Acidobacteriales	positive	1	
+141_Xanthomonadales	050_Catenulisporales	positive	2	
+141_Xanthomonadales	053_Glycomycetales	positive		1
+141_Xanthomonadales	055_Micrococcales	positive		2
+141_Xanthomonadales	056_Propionibacteriales	positive		2
+141_Xanthomonadales	063_Armatimonadales	negative	1	
+141_Xanthomonadales	066_Chitinophagales	negative	1	
+141_Xanthomonadales	067_Cytophagales	positive		1
+141_Xanthomonadales	068_Sphingobacteriales	positive	2	
+141_Xanthomonadales	084_Sericytochromatia	positive		1
+141_Xanthomonadales	090_Paenibacillales	positive	1	1
+141_Xanthomonadales	099_Myxococcales	positive	1	
+141_Xanthomonadales	103_Polyangiales	positive	1	
+141_Xanthomonadales	117_Caulobacterales	positive	1	1
+141_Xanthomonadales	123_Reyranellales	positive	1	
+141_Xanthomonadales	124_Rhizobiales	positive	1	1
+141_Xanthomonadales	128_Sphingomonadales	positive	1	
+141_Xanthomonadales	130_Burkholderiales	negative	1	
+141_Xanthomonadales	130_Burkholderiales	positive	1	
+141_Xanthomonadales	138_Pseudomonadales	negative	1	
+141_Xanthomonadales	141_Xanthomonadales	positive	4	1
+141_Xanthomonadales	148_Pedosphaerales	negative		1
+141_Xanthomonadales	150_AT_rhizo	negative	1	
+142_unidentified Proteobacteria	066_Chitinophagales	positive	1	1
+144_Sumerlaeales	073_Oligoflexales	positive		1
+144_Sumerlaeales	089_Bacillales	positive		1
+144_Sumerlaeales	129_unidentified Alphaproteobacteria	negative		1
+145_Chlamydiales	099_Myxococcales	positive		1
+145_Chlamydiales	124_Rhizobiales	negative	1	
+146_Chthoniobacterales	022_Cryptofilida	positive		1
+146_Chthoniobacterales	024_Glissomonadida	positive	1	
+146_Chthoniobacterales	041_Pyrinomonadales	positive		1
+146_Chthoniobacterales	090_Paenibacillales	negative		1
+146_Chthoniobacterales	103_Polyangiales	positive	1	
+146_Chthoniobacterales	124_Rhizobiales	negative	1	
+146_Chthoniobacterales	128_Sphingomonadales	positive	1	
+147_Opitutales	090_Paenibacillales	positive	1	
+148_Pedosphaerales	068_Sphingobacteriales	negative	1	
+148_Pedosphaerales	124_Rhizobiales	positive		1
+149_Verrucomicrobiales	020_Cercomonadida	negative		1
+149_Verrucomicrobiales	020_Cercomonadida	positive		1
+149_Verrucomicrobiales	090_Paenibacillales	positive	1	
+149_Verrucomicrobiales	124_Rhizobiales	positive	1	
+150_AT_rhizo	009_Sordariales	positive	1	
+151_Locationcr1_base	068_Sphingobacteriales	positive	1	
+151_Locationcr1_base	121_Micropepsales	negative	1	
+152_Locationcr1_tip	148_Pedosphaerales	negative		1
+153_Locationcr2_base	086_Babeliales	positive	1	
+153_Locationcr2_base	150_AT_rhizo	positive	1	
+154_Locationcr2_tip	148_Pedosphaerales	negative		1
+156_Locationprim_base	068_Sphingobacteriales	negative	1	
+156_Locationprim_base	148_Pedosphaerales	negative	1	
+158_Locationsem_tip	089_Bacillales	positive		1
