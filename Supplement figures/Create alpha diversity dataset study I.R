@@ -63,9 +63,9 @@ library(phyloseqCompanion)
 
   
   ########## run for each ps object
-  df_16S <- process_phyloseq_alpha(ps_r_16S, "16S")
-  df_ITS <- process_phyloseq_alpha(ps_r_ITS, "ITS")
-  df_18S <- process_phyloseq_alpha(ps_r_18S, "18S")
+  df_16S <- process_phyloseq_alpha(ps_r_16S, "Bacteria")
+  df_ITS <- process_phyloseq_alpha(ps_r_ITS, "Fungi")
+  df_18S <- process_phyloseq_alpha(ps_r_18S, "Cercozoa")
 
   
   ########## remove useless cols from output
