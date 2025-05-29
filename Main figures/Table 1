@@ -49,7 +49,7 @@ library(ggpubr)
   
   sample_data(ps_r_16S)$X11C_level <- as.factor(sample_data(ps_r_16S)$X11C_level)
   sample_data(ps_r_ITS)$X11C_level <-as.factor(sample_data(ps_r_ITS)$X11C_level)
-  sample_data(ps_r_18S)$Mass_fraction_13C_rhizosphere <- as.numeric(sample_data(ps_r_18S)$Mass_fraction_13C_rhizosphere)
+  sample_data(ps_r_18S)$X11C_level <-as.factor(sample_data(ps_r_18S)$X11C_level)
 
 
   ########## prep functions and loop
