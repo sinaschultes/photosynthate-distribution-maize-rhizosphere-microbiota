@@ -91,7 +91,7 @@ m
   }
   
   
-  ########## run function for each origin group
+  ########## run function for each 13C-level group
   df_cat1 <- run_HRSIP_analysis(
     X13C_group = "1",
     ps = ps,
