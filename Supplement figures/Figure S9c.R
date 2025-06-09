@@ -2,6 +2,7 @@ rm(list = ls())
 
 ########## load libraries
 library(vegan)
+library(purrr)
 library(dplyr)
 library(tibble)
 library(multcompView)
@@ -13,6 +14,14 @@ library(broom)
 library(ggpubr)
 library(car)
 library(gridExtra)
+
+get.pvalues <- function(pw_result) {
+  pvals <- pw_result$p.value
+  out <- as.vector(pvals)
+  names(out) <- apply(expand.grid(rownames(pvals), colnames(pvals)), 1, function(x) paste(sort(x), collapse = "-"))
+  out <- out[!is.na(out)]
+  return(out)
+}
 
 
 
@@ -189,7 +198,7 @@ library(gridExtra)
     theme_linedraw() +
     geom_text(data = label_data_clean, aes(x = Level, y = y_pos, label = CL_label), vjust = -0.8, size = 6, color = "black", na.rm = TRUE) +
     geom_text(data = label_data_pval, aes(x = x_pos, y = y_pos, label = p_value_label), inherit.aes = FALSE, parse = TRUE, hjust = 0, size = 6) +
-    facet_grid2(Factor ~ Metric, scales = "free", independent = "all", switch = "y", labeller = labeller(Factor = c("X11C_level" = "11C level", "Root_type" = "Root type", "Root_section" = "Root section"))) +
+    facet_grid2(Factor ~ Metric, scales = "free", independent = "all", switch = "y", labeller = labeller(Factor = c("X11C_level" = "11C level", "Root_type" = "Root type", "Root_section" = "Root section"),Metric = c("Observed" = "ASV richness", "Pielou" = "Pielou evenness")))+
     theme_linedraw() +
     theme(
       axis.title.y = element_blank(),
