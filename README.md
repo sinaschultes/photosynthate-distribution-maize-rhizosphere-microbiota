@@ -1,4 +1,4 @@
-# Photosynthate distribution affects maize rhizosphere microbiota
+# Photosynthate distribution determines spatial patterns in rhizosphere microbiota
 Custom scripts and data accompanying the following manuscript published in Nature Communications:
 
 **Photosynthate distribution determines spatial patterns in the rhizosphere microbiota of the maize root system**
