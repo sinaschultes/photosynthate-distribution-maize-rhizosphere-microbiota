@@ -15,3 +15,5 @@ _<sup>(3)</sup> Institute of Bio- and Geosciences, IBG 2: Plant Sciences, Forsch
 _<sup>(4)</sup> Institute for Crop Science and Resource Conservation (INRES), Soil Sciences, University of Bonn, Bonn, Germany_
 
 _<sup>(5)</sup> Adrienne Clarke Chair of Botany, School of BioSciences, Faculty of Science, University of Melbourne, Melbourne, Australia (present)_
+
+https://doi.org/10.1038/s41467-025-62550-y
